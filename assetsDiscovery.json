@@ -1,0 +1,290 @@
+{
+  "domain": {
+    "queryDomaindummy": {
+      "queryDomain": [
+        {
+          "id": "breachlock_breachlock.com",
+          "name": "breachlock.com",
+          "isAutoAdded": true,
+          "assetsAggregate": { "count": 26 },
+          "asnsAggregate": { "count": 1 },
+          "vulnerabilitiesAggregate": { "count": 21 }
+        },
+        {
+          "id": "breachlock.com12",
+          "name": "example.com",
+          "isAutoAdded": false,
+          "assetsAggregate": { "count": 26 },
+          "asnsAggregate": { "count": 1 },
+          "vulnerabilitiesAggregate": { "count": 50 }
+        }
+      ]
+    }
+  },
+  "subDomain": {
+    "subDomainGetDomaindummy": {
+      "queryAsset": [
+        {
+          "id": "breachlock_sap.breachlock.com",
+          "name": "app.breachlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": true,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        },
+        {
+          "id": "breachlock.breachlock.com",
+          "name": "sap.breachlock.com",
+          "isAutoAdded": false,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:37.227487Z"
+        },
+        {
+          "id": "breachlock.com",
+          "name": "www.brechlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        },
+        {
+          "id": "breachlock.com1",
+          "name": "www.brechlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        },
+        {
+          "id": "breachlock.com2",
+          "name": "www.brechlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        },
+        {
+          "id": "breachlock.com3",
+          "name": "www.brechlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        },
+        {
+          "id": "breachlock.com4",
+          "name": "www.brechlock.com",
+          "isAutoAdded": true,
+          "hasWebsite": false,
+          "ipaddressesAggregate": { "count": 0 },
+          "dnsrecordsAggregate": { "count": 0 },
+          "findingsAggregate": { "count": 0 },
+          "updatedAt": "2024-01-05T12:40:52.034715Z"
+        }
+      ],
+      "aggregateAsset": { "count": 7 }
+    }
+  },
+  "ipAddresses": {
+    "ipAddressGetDomaindummy": {
+      "queryIPAddress": [
+        {
+          "id": "breachlock_downloads.breachlock.com",
+          "name": "44.240.99.13",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        },
+        {
+          "id": "breachlock_downloads1.breachlock.com",
+          "name": "127.12.12.12",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        },
+        {
+          "id": "breachlock2_downloads.breachlock.com",
+          "name": "52.84.162.72",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2023-12-30T18:42:20.356Z"
+        },
+        {
+          "id": "breachlock3_downloads.breachlock.com",
+          "name": "52.11.120.134",
+          "isAutoAdded": true,
+          "country": "abc",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        },
+        {
+          "id": "downloads_breachlock.com",
+          "name": "52.84.162.28",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        },
+        {
+          "id": "breachlock4_breachlock.com",
+          "name": "52.84.162.28",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        },
+        {
+          "id": "breachlock5_breachlock.com",
+          "name": "52.84.162.28",
+          "isAutoAdded": true,
+          "country": "India",
+          "org": "breach",
+          "ipblock": { "name": "test" },
+          "updatedAt": "2024-01-08T13:30:53.108109Z"
+        }
+      ],
+      "aggregateIPAddress": { "count": 7 }
+    }
+  },
+  "url": {},
+  "ipBlocks": {
+    "ipBlockGetDomaindummy": {
+      "queryIPBlock": [
+        {
+          "id": "breachlock_13.35.208.0/21",
+          "name": "13.35.208.0/21",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 7 },
+          "updatedAt": "2023-11-19T08:42:44.255986Z"
+        },
+        {
+          "id": "breachlock_13.35.224.0/21",
+          "name": "13.35.224.0/21",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 8 },
+          "updatedAt": "2023-11-19T08:42:44.256703Z"
+        },
+        {
+          "id": "breachlock_18.155.48.0/21",
+          "name": "18.155.48.0/21",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 7 },
+          "updatedAt": "2023-11-19T08:42:44.258438Z"
+        },
+        {
+          "id": "breachlock_192.124.249.0/24",
+          "name": "192.124.249.0/24",
+          "isAutoAdded": true,
+          "asn": { "name": "AS30148", "orgName": "Sucuri" },
+          "ipaddressesAggregate": { "count": 1 },
+          "updatedAt": "2023-11-19T08:42:44.258657Z"
+        },
+        {
+          "id": "breachlock_199.60.103.0/24",
+          "name": "199.60.103.0/24",
+          "isAutoAdded": true,
+          "asn": { "name": "AS209242", "orgName": "Cloudflare London, LLC" },
+          "ipaddressesAggregate": { "count": 2 },
+          "updatedAt": "2023-11-19T08:42:44.258833Z"
+        },
+        {
+          "id": "breachlock_2600:9000:2078::/48",
+          "name": "2600:9000:2078::/48",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 16 },
+          "updatedAt": "2023-11-19T08:42:44.256128Z"
+        },
+        {
+          "id": "breachlock_2600:9000:2085::/48",
+          "name": "2600:9000:2085::/48",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 16 },
+          "updatedAt": "2023-11-19T08:42:44.257644Z"
+        },
+        {
+          "id": "breachlock_2600:9000:2572::/48",
+          "name": "2600:9000:2572::/48",
+          "isAutoAdded": true,
+          "asn": { "name": "AS16509", "orgName": "Amazon.com, Inc." },
+          "ipaddressesAggregate": { "count": 16 },
+          "updatedAt": "2023-11-19T08:42:44.258584Z"
+        },
+        {
+          "id": "breachlock_2603:1000::/25",
+          "name": "2603:1000::/25",
+          "isAutoAdded": true,
+          "asn": { "name": "AS8075", "orgName": "Microsoft Corporation" },
+          "ipaddressesAggregate": { "count": 4 },
+          "updatedAt": "2023-11-19T08:42:44.258257Z"
+        },
+        {
+          "id": "breachlock_2606:2c40::/48",
+          "name": "2606:2c40::/48",
+          "isAutoAdded": true,
+          "asn": { "name": "AS209242", "orgName": "Cloudflare London, LLC" },
+          "ipaddressesAggregate": { "count": 2 },
+          "updatedAt": "2023-11-19T08:42:44.258869Z"
+        }
+      ],
+      "aggregateIPBlock": { "count": 10 }
+    }
+  },
+  "assetsGroups": {
+    "assetGroupGetDomsindummy": {
+      "queryAssetGroup": [
+        {
+          "name": "Test1",
+          "id": "875e9ac84698417a856fe956c522e0fc",
+          "assetType": "SUBDOMAIN",
+          "assetsAggregate": { "count": 25 },
+          "ipaddressesAggregate": { "count": 0 },
+          "vulnerabilityCount": 17,
+          "updatedAt": "2024-01-23T07:21:11.765276Z",
+          "isArchived": false,
+          "description": "test1",
+          "domain": { "id": "0x4", "name": "breachlock.com" }
+        },
+        {
+          "name": "Test2",
+          "id": "b11f91e847b246f1a3685833f5475a58",
+          "assetType": "IP",
+          "assetsAggregate": { "count": 0 },
+          "ipaddressesAggregate": { "count": 11 },
+          "vulnerabilityCount": 20,
+          "updatedAt": "2024-01-24T06:47:33.35656Z",
+          "isArchived": false,
+          "description": "vhgv bvgcb hbnbhv",
+          "domain": { "id": "0x4", "name": "breachlock.com" }
+        }
+      ],
+      "aggregateAssetGroup": { "count": 2 }
+    }
+  }
+}
