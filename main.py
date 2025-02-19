@@ -1,85 +1,89 @@
 import warnings
 warnings.filterwarnings("ignore")
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException,Form
 from pydantic import BaseModel
-from typing import List,Dict
+from typing import List,Dict,Optional
 import pandas as pd
-from src.utils import *
+from src.utils import MainUtils
+from src.components.vulnerabilities import AddVulnerabilityData
+from src.components.assetDiscovery import AddassetDiscoveryData
+from src.constants import *
+from src.logger import logger
 import os
 import uvicorn
-
+vul_data_ingestor = AddVulnerabilityData()
+AssetDiscovery_data_ingestor = AddassetDiscoveryData()
+utils = MainUtils()
 
 app = FastAPI()
 
+logger.info(":) LOGGING START :)")
 
-class get_data(BaseModel):
+class VulnerabilityData(BaseModel):
+    vulnerability_section : str 
+    sheet_name : Optional[str]
+
+
+class AssetDiscovery(BaseModel):
     section_name : str
-    table_name : str
+    sheet_name : Optional[str]
 
-class UpdateData(BaseModel):
-    file_name:str
-    field_name:str
-    data : dict
-    json_file_to_save: str
+
 
 @app.get("/")
 def home():
-    return ":) welcome "
+    return ":) welcome :)"
 
-@app.post("/upload_csv")
-async def csv_to_json(file: UploadFile = File(...)):
-    try:
-        # Check file extension
-        if file.filename.endswith('.csv'):
-            df = pd.read_csv(file.file)
-        elif file.filename.endswith(('.xls', '.xlsx')):
-            df = pd.read_excel(file.file)
-            df = processed_csv(df)
-            schema = json_schema()
-            expected_fields = extract_unique_values_form_schema(schema)
-            df = create_missing_field(df,expected_fields)
-            data_df = extracting_data(df)
-            pentest_data = {
-                "pentestVulnerabilityData": {"queryPentestVulnerability":[]},
-                }
-            data = add_data_to_json(pentest_data,data_df)
-            write_json('pentest.json',data)
-            return data
-        else:
-            raise HTTPException(status_code=400, detail="Unsupported file type. Please upload a CSV or Excel file.")
-        
-        # Perform processing (Modify this section as needed)
-        json_output = df.to_dict(orient="records")
-        
-        return {"data": json_output}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+@app.post("/updateVulnerabilities")
+def update_vulnerability_json(vulnerability_section:str=Form(...),data:UploadFile=File(...),sheet_name: Optional[str]=Form(None)):
+    upcoming_data = vul_data_ingestor.initiate_data_ingestion(data,sheet_name,vulnerability_section)
+    logger.info(":) OVERWRITING JSON FILE :)")
+    vulnerability_data = utils.read_json_file(vulnerabilities_file)
+    if vulnerability_section in list(vulnerability_data.keys()):
+        variable_name = list(vulnerability_data[vulnerability_section].keys())[0]
+        vulnerability_data[vulnerability_section][variable_name]=upcoming_data
+        utils.write_json_file(vulnerabilities_file,vulnerability_data)
+        logger.info(":) OVERWRITING COMPLETED :)")
+        return {
+            "sucess":True,
+            "data_added":upcoming_data
+        }
+    else:
+        return {
+            "sucess":False,
+            "error":"Invalid Section Name "
+        }
+
+@app.get('/getVulnerabilities')
+def get_vulnerability_json():
+    vulnerability_data = utils.read_json_file(vulnerabilities_file)
+    return {'sucess':True,"data":vulnerability_data}
 
 
+@app.post('/updateAssetDiscovery')
+def update_asset_discovery(section_name:str=Form(...),data:UploadFile=File(...),sheet_name:Optional[str]=Form(None)):
+    if sheet_name=='':
+        upcoming_data = AssetDiscovery_data_ingestor.initiate_data_ingestion(data,None,section_name)
+    else:
+        upcoming_data = AssetDiscovery_data_ingestor.initiate_data_ingestion(data,sheet_name,section_name)
+    assetDiscoveryData = utils.read_json_file(assetDiscovery_file)
+    if section_name in list(assetDiscoveryData["table"].keys()):
+        variable_name = list(assetDiscoveryData["table"][section_name].keys())[0]
+        assetDiscoveryData["table"][section_name][variable_name] = upcoming_data
+        utils.write_json_file(assetDiscovery_file,assetDiscoveryData)
+        return {
+            "success":True,
+            "data_added":upcoming_data
+        }
+    else:
+        return {"success":True,"error":"Invalid section name"}
 
-@app.get("/get_data")
-def fetch_data(file_name: str, field_name: str):
-    try:
-        data = read_file(file_name)
-        return data[field_name]
-    except Exception as e:
-        print(e)
+@app.get("/getassetDiscovery")
+def get_asset_discovery():
+    assetDiscoveryData = utils.read_json_file(assetDiscovery_file)
+    return {"success":True,"data":assetDiscoveryData["table"]}
 
-@app.post("/update_data")
-def update(update_request:UpdateData):
-    try:
-        file_name = update_request.file_name
-        field_name = update_request.field_name
-        data = update_request.data
-        new_json_file = update_request.json_file_to_save
-        file_data = read_file(file_name)
-        file_data[field_name] = field_name
-        write_json(new_json_file,file_data)
-        return {"sucess":True}
-    except Exception as e:
-        print(e)
 
-    
 
 if __name__ == "__main__":
     uvicorn.run(

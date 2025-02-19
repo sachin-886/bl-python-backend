@@ -1,0 +1,2129 @@
+{
+    "ASM": {
+        "queryVulnerability ": [
+            {
+                "id": "NULL",
+                "name": "HTTP Methods Enabled Identified",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:07",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Filtered/Closed Network Ports Found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:08",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Accessible via IP Address",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:09",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 3
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Cookies Without Secure Flag Detected",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:10",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Vulnerable to Lucky13 TLS Exploit",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:11",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Cookies Without HttpOnly Flag Detected",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:12",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 7
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Backup Files Disclosure",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:13",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Log file detected",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:14",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Operating System Fingerprinted",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:15",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Git repository found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:16",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "MySQL User enumeration",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:17",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Open Network Ports Found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:18",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Fully Qualified Domain Name (FQDN) Resolved",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:19",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Banner Grabbing Possible",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:20",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Output of phpinfo() Function Accessible Publicly",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:21",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Software Version(s) Disclosed",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:22",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 9
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "HTTP Arbitrary Methods Enabled",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:23",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": " Web Application Does Not Supply a Content-Security-Policy Header",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:24",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application is Vulnerable to Clickjacking",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:25",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 3
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Same-Site Scripting",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:26",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Permits MIME Type Sniffing",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:27",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Does Not Supply a Referrer-Policy Header",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:28",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 7
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Vulnerable to Cross-Site Request Forgery (CSRF)",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:29",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Software Version(s) Disclosed",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:30",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "No DMARC Policy Supplied in DNS Records",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:31",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Deprecated php version",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:32",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Content Spoofing",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:33",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Content-type incorrectly stated",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:34",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "DNS Wildcard Enabled for Domain",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:35",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Insecure clientaccesspolicy.xml file",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:36",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Does Not Supply a Permissions Policy",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:37",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Directory Listing",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 9
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Default Credential",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Eternal Blue Vulnerability",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Parameter Tampering Possible",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Heartbleed Vulnerability",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            }
+        ]
+    },
+    "PTaaS": {
+        "queryPentestVulnerability": [
+            {
+                "id": "NULL",
+                "name": "HTTP Methods Enabled Identified",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:07",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Filtered/Closed Network Ports Found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:08",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Accessible via IP Address",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:09",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 3
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Cookies Without Secure Flag Detected",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:10",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Vulnerable to Lucky13 TLS Exploit",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:11",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Cookies Without HttpOnly Flag Detected",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:12",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 7
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Backup Files Disclosure",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:13",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Log file detected",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:14",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Operating System Fingerprinted",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:15",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Git repository found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:16",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "MySQL User enumeration",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:17",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Open Network Ports Found",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:18",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Fully Qualified Domain Name (FQDN) Resolved",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:19",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Banner Grabbing Possible",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:20",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Output of phpinfo() Function Accessible Publicly",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:21",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Software Version(s) Disclosed",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:22",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 9
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "HTTP Arbitrary Methods Enabled",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:23",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": " Web Application Does Not Supply a Content-Security-Policy Header",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:24",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application is Vulnerable to Clickjacking",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:25",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 3
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Same-Site Scripting",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:26",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Permits MIME Type Sniffing",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:27",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Does Not Supply a Referrer-Policy Header",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:28",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 7
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Vulnerable to Cross-Site Request Forgery (CSRF)",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:29",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Server Software Version(s) Disclosed",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:30",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 4
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "No DMARC Policy Supplied in DNS Records",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:31",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Deprecated php version",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:32",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Content Spoofing",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:33",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Content-type incorrectly stated",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:34",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "DNS Wildcard Enabled for Domain",
+                "is_update": "NULL",
+                "severity": "Informational",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:35",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Insecure clientaccesspolicy.xml file",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:36",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Application Does Not Supply a Permissions Policy",
+                "is_update": "NULL",
+                "severity": "Low",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:37",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Directory Listing",
+                "is_update": "NULL",
+                "severity": "Medium",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 9
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Default Credential",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Eternal Blue Vulnerability",
+                "is_update": "NULL",
+                "severity": "Critical",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 1
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Web Parameter Tampering Possible",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 5
+                }
+            },
+            {
+                "id": "NULL",
+                "name": "Heartbleed Vulnerability",
+                "is_update": "NULL",
+                "severity": "High",
+                "isFalsePositive": "NULL",
+                "updatedAt": "NULL",
+                "createdAt": "11-12-2024T06:38",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL",
+                    "ptId": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": 2
+                }
+            }
+        ]
+    },
+    "details": {
+        "getPentestVulnerability": [
+            {
+                "id": "0x44e1a10",
+                "name": "HTTP Arbitrary Methods Enabled",
+                "tags": "NULL",
+                "description": "The web server supports arbitrary and invalid HTTP methods which could be a potential misconfiguration.",
+                "recommendation": "All not used or arbitrary supported methods should be disabled and return an HTTP 405 method not allowed in application responses.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+                "cvsScore": 3.887042775,
+                "severity": "INFORMATIONAL",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a11",
+                "name": " Web Application Does Not Supply a Content-Security-Policy Header",
+                "tags": "NULL",
+                "description": "The web application does not return a Content-Security-Policy header. Content Security Policy (CSP) is a web security standard designed to make it harder for an attacker to exploit certain types of attacks, such as data injections attacks, including Cross-Site Scripts (XSS). CSP allows web servers to declare sources of content that browsers are explicitly allowed to consider valid source of executable scripts and load on the page, through the use of the Content-Security-Policy HTTP header.",
+                "recommendation": "Implement the Content-Security-Policy HTTP header, containing an appropriate policy for your applications functionality and needs.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+                "cvsScore": 1.62014556,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a12",
+                "name": "Web Application is Vulnerable to Clickjacking",
+                "tags": "NULL",
+                "description": "The web application allows itself to be embedded in other web applications using HTML frames/iframes. An attacker may be able to exploit this by embedding the web application into a webpage they control and using this to get the user to interact with it without knowing it is embedded in a malicious way. This type of attack is known as clickjacking and can be used to trick users into interacting with a maliciously embedded web page without knowing. The X-Frame-Options header is used to indicate whether a browser should be allowed to render a page within another page. It can be used to mitigate clickjacking by setting the value to â€œDENYâ€ which will prevent the embedding of the application in all cases, or to â€œSAMEORIGINâ€ which will only permit embedding by web application hosted at the same origin. The Content-Security-Policy header can also mitigate clickjacking with the implementation of the â€˜frame-ancestorsâ€™ directive.",
+                "recommendation": "Implement the appropriate X-Frame-Options and/or Content-Security-Policy HTTP headers in application responses to ensure that the application cannot be embedded in other applications.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "cvsScore": 2.2211673,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a13",
+                "name": "Same-Site Scripting",
+                "tags": "NULL",
+                "description": "The web application is vulnerable to same-site scripting attacks. This vulnerability arises when the DNS records for a domain contain an entry for localhost with a missing trailing dot (.) causing the record to be interpreted as a subdomain while pointing to 127.0.0.1. For example, if the DNS records for example.com contain an entry for localhost without a trailing dot, localhost.example.com would then resolve to 127.0.0.1. This can introduce a vulnerability similar to cross-site scripting (XSS) or allow the theft of sensitive cookies if the user's local machines become compromised.",
+                "recommendation": "Resolve the DNS misconfiguration (i.e. adding the missing trailing dot) that gives rise to the same-site scripting vulnerability.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "cvsScore": 9.9968,
+                "severity": "HIGH",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a14",
+                "name": "Web Application Permits MIME Type Sniffing",
+                "tags": "NULL",
+                "description": "The web application does not return an X-Content-Type-Options header, which may permit MIME type sniffing. Multipurpose Internet Mail Extensions (MIME) is a standard used to identify the type of content that is being sent over the internet, such as text, image, audio, etc. MIME sniffing occurs when certain browsers attempt to identify the content type of a particular asset by analyzing, or â€œsniffingâ€ the content of a file to identify specific patterns or signatures that match known MIME type. This action poses a security risk, as attackers can abuse this to trick a browser into interpreting files as different MIME types, executing malicious code on a userâ€™s computer. It also has the potential to lead to information leakage, as MIME sniffing can reveal sensitive information about usersâ€™ habits or application asset contents. Inclusion of the X-Content-Type-Options header with the \"nosniff\" value instructs the browser to accept Content-Type headers returned by the server as authoritative, and not to attempt MIME type sniffing.",
+                "recommendation": "Implement the X-Content-Type-Options HTTP header in application responses with the value \"nosniff\".",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+                "cvsScore": 9.62014556,
+                "severity": "Critical",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a15",
+                "name": "Web Application Does Not Supply a Referrer-Policy Header",
+                "tags": "NULL",
+                "description": "The web server does not return a Referrer-Policy header in the application responses. A Referrer-Policy header instructs the user's browser on whether referrer information should be included with requests and, if so, how much should be included. This can be useful, for example, for determining how users arrive on your website and which of your other sites they visit after they leave. However, the referrer policy should be audited carefully before deploying the web application in order to ensure that excessive information about the user's browsing is not leaked to other websites unintentionally, especially over unsecured connections. To disable referrer information completely, the Referrer-Policy header can be set to no-referrer. Alternatively, to enable referrer information only on the same origin, the value can be set to same-origin.",
+                "recommendation": "Implement the Referrer-Policy either in a HTTP header in application responses, or by declaring it in the meta tags, containing an appropriate value for the amount of referrer information required to be sent.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+                "cvsScore": 4.928,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a16",
+                "name": "Web Application Vulnerable to Cross-Site Request Forgery (CSRF)",
+                "tags": "NULL",
+                "description": "The web application is potentially vulnerable to cross-site request forgery (CSRF). A CSRF vulnerability arises when a web application does not take steps to prevent websites in other browser tabs from triggering actions on behalf of users who are logged in. Without anti-CSRF measures, other websites can execute actions of the attacker's choosing against the web application using the authenticated session of the user. Often, CSRF attacks are aided by social engineering, but this is not always the case. CSRF attacks can have varying levels of impact depending on the privileges of the affected user. A CSRF attack against a regular user may result in deletion of important data, theft of sensitive data or execution of unwanted actions (such as initiating payments). CSRF attacks against administrators may additionally result in compromise of the entire web application. The use of CSRF tokens is by far the most robust way to counteract CSRF attacks. These one-time random strings are served to the user when they request a webpage, often included as hidden fields in HTML forms. When the user submits the form, the associated action is only carried out if a valid CSRF token is included. This ensures that the user requested the webpage initiating the action in the first place, addressing the vulnerability.",
+                "recommendation": "Deploy CSRF tokens on the web application, ensuring they cannot be reused, are strongly random, and sufficiently long.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "cvsScore": 2.2211673,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a17",
+                "name": "Server Software Version(s) Disclosed",
+                "tags": "NULL",
+                "description": "The server discloses information about itself, such as its identity and versioning information. This version information can reveal if the server is running an outdated or vulnerable version. This also allows for an attacker to craft specific exploitation techniques for the identified server and version. Some areas where this information may be revealed include within HTTP headers, on error pages, within cookie values, and within the application itself.",
+                "recommendation": "It is recommended to minimize the amount of server information that is detectable wherever possible. This might include server headers such as Server, X-Powered-By, X-AspNet-Version, and others, as well as on error pages or within cookies.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "cvsScore": 2.2211673,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a18",
+                "name": "No DMARC Policy Supplied in DNS Records",
+                "tags": "NULL",
+                "description": "No Domain-based Message Authentication, Reporting, and Conformance (DMARC) entries were detected in the DNS records for the web application. DMARC is a protocol for email authentication that helps prevent email spoofing, a technique used in spam and phishing attacks to trick users into thinking the message has come from a trusted source, or one they are familiar with. It allows domain owners to protect their domain as well as set a consistent policy on how the server should handle messages that are not validated or authenticated.",
+                "recommendation": "Deploy a DMARC policy in the DNS TXT records for the web application alongside SPF and DKIM records to ensure that the domain is protected from email spoofing and the appropriate policies are in place for how to handle emails that arenâ€™t validated or authenticated.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "cvsScore": 2.2211673,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a19",
+                "name": "Deprecated php version",
+                "tags": "NULL",
+                "description": "According to its version, PHP installation on remote hosts is no longer supported. The lack of support means that vendors will not release new security patches for the product. As a result, it may contain security holes.",
+                "recommendation": "It is recommended to upgrade current version to the latest supported PHP version.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "cvsScore": 2.2211673,
+                "severity": "HIGH",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a110",
+                "name": "Content Spoofing",
+                "tags": "NULL",
+                "description": "The web application is vulnerable to a content spoofing attack. This vulnerability arises when a user-supplied message (possibly containing HTML) is displayed directly by the web application in a way that creates the impression that the message originates from the web application itself. In this way, an attacker is able to cause the web application to display false, misleading, deceptive, or damaging information. Such information can be used to damage the reputation of the organisation, or more commonly in conjunction with a social engineering attack to encourage users to follow a link or call a phone number controlled by the attacker.",
+                "recommendation": "Ensure that user-supplied content is clearly marked as such and that it is not included in subsequent application responses unless absolutely necessary.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+                "cvsScore": 3.887042775,
+                "severity": "INFORMATIONAL",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a111",
+                "name": "Content-type incorrectly stated",
+                "tags": "NULL",
+                "description": "If a response specifies an incorrect content type, then browsers may process the response in unexpected ways. If the content type is specified to be a renderable text-based format, then the browser will usually attempt to interpret the response as being in that format, regardless of the actual contents of the response. This behavior might lead to otherwise",
+                "recommendation": "For every response containing a message body, the application should include a single Content-type header that correctly and unambiguously states the MIME type of the content in the response body. Additionally, the response header \"\"X-content-type-options: nosniff\"\" should be returned in all responses to reduce the likelihood that browsers will interpret content in a way that disregards the Content-type header.",
+                "cvssVector": "CVSS2#AV:N/AC:L/Au:N/C:P/I:P/A:N",
+                "cvsScore": 6.39,
+                "severity": "INFORMATIONAL",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a112",
+                "name": "DNS Wildcard Enabled for Domain",
+                "tags": "NULL",
+                "description": "The web application appears to use a DNS wildcard for subdomains. A wildcard subdomain DNS entry will cause any subdomain to direct to your server's IP address, even if that subdomain is not explicitly configured in the DNS records for the main domain. While not a direct threat to the security of your web application, this means that any domain name ending with yourcompany.com (such as www.google.com.yourcompany.com) would resolve to the IP address of the web application hosted at yourcompany.com. If your web server becomes compromised, a wildcard DNS entry may make it easier for an attacker to host a malicious website at a legitimate company subdomain, potentially also taking advantage of any SSL/TLS certificates installed on your server.",
+                "recommendation": "Consider removing the wildcard DNS entry if it is not necessary for the correct functioning of the web application.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+                "cvsScore": 3.887042775,
+                "severity": "INFORMATIONAL",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a113",
+                "name": "Insecure clientaccesspolicy.xml file",
+                "tags": "NULL",
+                "description": "The cross-domain policy file specifies the permissions for web clients (such as Java, Adobe Flash, Adobe Reader, etc.) to access data across different domains. For Silverlight, Microsoft adopted a subset of Adobe's cross-domain.xml and created its cross-domain policy file: clientaccesspolicy.xml. Whenever the web client detects that it must request resources from other domains, it will try to look first for a policy file in the target domain to determine whether cross-domain requests (including headers) and socket-based connections are allowed. The main policy file is located in the root directory of the domain.",
+                "recommendation": "Determine which sites will be allowed to make the cross-domain connection. Consider the network topology and any authentication mechanisms that will be affected by the configuration or implementation of cross-domain policies.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+                "cvsScore": 1.62014556,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a114",
+                "name": "Web Application Does Not Supply a Permissions Policy",
+                "tags": "NULL",
+                "description": "The web application does not return a Permissions-Policy header in request responses. The Permissions-Policy header (formerly named Feature-Policy) is an HTTP response header returned by web applications that restricts the functionality of the web application in the browser to help safeguard against malicious behavior introduced by attackers. For example, if the website does not require access to the microphone or camera, the permissions policy can completely disable the microphone and camera APIs, preventing a successful XSS attack from exploiting them. The feature-policy header implementation is now deprecated and no longer supported on all versions of every browser.",
+                "recommendation": "Implement a Permissions-Policy header that restricts the APIs and browser features available to client-side code to only those necessary for the web application to function correctly. If using a Feature-Policy, it is recommended to switch to a Permissions-Policy as that is now the widely supported header.",
+                "cvssVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+                "cvsScore": 1.62014556,
+                "severity": "LOW",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "0x44e1a115",
+                "name": "Directory Listing",
+                "tags": "NULL",
+                "description": "Web servers can be configured to automatically list the contents of directories that do not have an index page present. This can aid an attacker by enabling them to quickly identify the resources at a given path, and proceed directly to analyzing and attacking those resources. It particularly increases the exposure of sensitive files within the directory that are not intended to be accessible to users, such as temporary files and crash dumps.",
+                "recommendation": "There is not usually any good reason to provide directory listings, and disabling them may place additional hurdles in the path of an attacker. This can normally be achieved in two ways: Configure your web server to prevent directory listings for all paths beneath the web root; Place into each directory a default file (such as index.htm) that the web server will display instead of returning a directory listing.",
+                "cvssVector": "CVSS2#AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                "cvsScore": 9.9968,
+                "severity": "MEDIUM",
+                "updatedAt": "2025-02-19 12:48:25.778896",
+                "createdAt": "2025-02-19 12:48:25.778896",
+                "pentest": {
+                    "id": "NULL",
+                    "name": "NULL"
+                },
+                "findingsAggregate": {
+                    "count": "NULL"
+                },
+                "complianceStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "references": "NULL",
+                "vulnerabilityStandards": [
+                    {
+                        "id": "NULL",
+                        "name": "NULL"
+                    }
+                ],
+                "findings": [
+                    {
+                        "id": "NULL",
+                        "asset": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "ipaddress": {
+                            "id": "NULL",
+                            "name": "NULL"
+                        },
+                        "url": "NULL",
+                        "findingPocs": [
+                            {
+                                "id": "NULL",
+                                "url": "NULL"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "domain": {
+        "getDomain": {
+            "id": "0x4",
+            "vulnerabilities": [
+                {
+                    "id": "0x2711",
+                    "name": "Banner Grabbing Possible",
+                    "severity": "LOW",
+                    "cvssScore": 3.1,
+                    "updatedAt": "2024-02-28T05:51:54.431Z"
+                },
+                {
+                    "id": "0x2713",
+                    "name": "Open Network Ports Found on Server",
+                    "severity": "HIGH",
+                    "cvssScore": 7.5,
+                    "updatedAt": "2024-02-28T05:51:54.432Z"
+                },
+                {
+                    "id": "0x271d",
+                    "name": "Inconsistent Forward and Reverse DNS Lookup Results",
+                    "severity": "MEDIUM",
+                    "cvssScore": 4.8,
+                    "updatedAt": "2024-02-23T05:22:04.641Z"
+                },
+                {
+                    "id": "0x271f",
+                    "name": "Traceroute for the host",
+                    "severity": "CRITICAL",
+                    "cvssScore": 9.1,
+                    "updatedAt": "2024-02-28T05:51:54.43Z"
+                },
+                {
+                    "id": "0x2720",
+                    "name": "Operating System Fingerprinted",
+                    "severity": "INFORMATIONAL",
+                    "cvssScore": 0,
+                    "updatedAt": "2024-02-28T05:51:54.431Z"
+                },
+                {
+                    "id": "0xf1e5c",
+                    "name": "SSL Certificate Information",
+                    "severity": "LOW",
+                    "cvssScore": 3.0,
+                    "updatedAt": "2024-05-27T00:07:03.263Z"
+                },
+                {
+                    "id": "0xf1e5e",
+                    "name": "SSL/TLS Versions Enumerated",
+                    "severity": "MEDIUM",
+                    "cvssScore": 4.6,
+                    "updatedAt": "2024-05-27T00:07:03.265Z"
+                }
+            ],
+            "vulnerabilitiesAggregate": {
+                "count": 50
+            }
+        }
+    }
+}

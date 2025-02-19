@@ -1,0 +1,4020 @@
+{
+    "table": {
+        "Domain": {
+            "queryDomain": [
+                {
+                    "id": "testparkerMain",
+                    "name": "testparker.com",
+                    "isAutoAdded": true,
+                    "assetsAggregate": {
+                        "count": 21
+                    },
+                    "asnsAggregate": {
+                        "count": 1
+                    },
+                    "vulnerabilitiesAggregate": {
+                        "count": 50
+                    }
+                },
+                {
+                    "id": "ascenderMain",
+                    "name": "ascender.co",
+                    "isAutoAdded": true,
+                    "assetsAggregate": {
+                        "count": 21
+                    },
+                    "asnsAggregate": {
+                        "count": 1
+                    },
+                    "vulnerabilitiesAggregate": {
+                        "count": 50
+                    }
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "acme.com",
+                    "isAutoAdded": true,
+                    "assetsAggregate": {
+                        "count": 21
+                    },
+                    "asnsAggregate": {
+                        "count": 1
+                    },
+                    "vulnerabilitiesAggregate": {
+                        "count": 50
+                    }
+                }
+            ]
+        },
+        "Subdomains": {
+            "queryAsset": [
+                {
+                    "id": "acme.com",
+                    "name": "labelmaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "get.support.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.intra.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "sonar.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.online.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.groupr.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.rr.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.patton.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "smtp-c.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "myhmc.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.licensemaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "special.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.heartmaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.mail.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "webserver.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "intra.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "registry.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "random-stuff.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www-proxy.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "stserver.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "bugs.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "online.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "root.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "mybank.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "forgotpassword.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "sogo.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "estate.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "tmcmillan.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "dns1-si.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "giftcard.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "pub.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.mapper.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "mail.patton.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "patton.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "mail.rr.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "heartmaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "contractservice.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "xsoar.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "photo.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "sentry.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "pix.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "mail.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.pix.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "rhino.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "ldap.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "broadcast.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "products.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "id.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "x.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "dns1-bugs.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "rr.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "news.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "smtp-b.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "intranet.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.rhino.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "server1.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.labelmaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "ck.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "dns2-si.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "api.github.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.auth.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "quake.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "groupr.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.chumaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "exchange.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "apps.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "mapper.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "schema.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "acme-gw.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.photo.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.a.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "chumaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "gate.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "chino.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "tmcmillan.atlanta.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "api.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "foo.bar.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "auth.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "reporting.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "licensemaker.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "bfi.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "proxy.acme.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "acme.com",
+                    "name": "www.demosubdomain.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 28.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "annd87bstlv.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "sniffer.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "cloudflare.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "aj4h136vm2l.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher-test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.bc1-1.k3s.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "qa.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.a8xjxs2wx8h.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher-bc1-1.k3s.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "a1ubxczjr3w.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "abo0cd3jh1d-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher.qa.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.jb7wvxzlum.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher-stable.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.a56a3f1wdg0.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "abea4om86ml.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.aqypv42nr1w.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.abea4om86ml.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "qa-test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ai343g8tyfa.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "a1ier52dr97-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.vpgbvs.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "a3piqxn2etd.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.stable.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.awkhmreden4.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ahc622xrtnj-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.agkmjohkk98.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "stable.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "wmmxz0.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "gastest.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.a3piqxn2etd.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "vulnerableapps.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "test.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ahy1gmiwmef.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ass39acb717.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.a1ier52dr97-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher-qa-test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "mailcatcher-qa.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ap61dqbyc33.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ass39acb717.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.sniffer.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.aqfxgdctdd2.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "bc1-1.k3s.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.a1ubxczjr3w.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ap61dqbyc33.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.wmmxz0.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ai343g8tyfa.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "vpgbvs.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.annd87bstlv.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "aqypv42nr1w.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.azpc3o11gkq.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "awkhmreden4.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "jb7wvxzlum.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ar8u7scy98s.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.test.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "a56a3f1wdg0.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "slack.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ay8hm0ap0u5.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "azpc3o11gkq.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.qa-test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ar8u7scy98s.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.test.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ahy1gmiwmef.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "a8xjxs2wx8h.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "agkmjohkk98.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.aj4h136vm2l.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "linkerd-viz.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "ay8hm0ap0u5.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.qa.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.ahc622xrtnj-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "aqfxgdctdd2.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "brokencrystals.com",
+                    "name": "auth.abo0cd3jh1d-6.king.brokencrystals.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 9.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "http---demo.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "evil.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "3ddemo.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "localhost.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "demo.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "demo-analytics.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "ftp.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "www.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "altoro.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "testsite.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "testfire.net",
+                    "name": "demo2.testfire.net",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 29.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "scanme.org",
+                    "name": "www.scanme.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 14.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "scanme.org",
+                    "name": "nmap.scanme.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 14.0
+                    },
+                    "updatedAt": "2024-11-11T08:21:39Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "trainingtst.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "community.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "info.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "enterpriseenrollment.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "earningelite.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "www.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "mydev.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "trainingdev.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "my.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "training.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "content.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "ascender.co",
+                    "name": "autodiscover.ascender.co",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-11-13T19:34:50Z"
+                },
+                {
+                    "id": "tuitionrewards.com",
+                    "name": "Null",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-12-09T16:58:15Z"
+                },
+                {
+                    "id": "vulnweb.com",
+                    "name": "Null",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2024-12-11T18:11:48Z"
+                },
+                {
+                    "id": "testparker.com",
+                    "name": "www.testparker.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 23.0
+                    },
+                    "updatedAt": "2024-12-12T19:44:00Z"
+                },
+                {
+                    "id": "testparker.com",
+                    "name": "php.testparker.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 23.0
+                    },
+                    "updatedAt": "2024-12-12T19:44:00Z"
+                },
+                {
+                    "id": "testparker.com",
+                    "name": "ww1.testparker.com",
+                    "isAutoAdded": false,
+                    "hasWebsite": true,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": 23.0
+                    },
+                    "updatedAt": "2024-12-12T19:44:00Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "link.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "image.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "test.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "ww2.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "notes.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "www.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "media.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                },
+                {
+                    "id": "computerkorner.org",
+                    "name": "sec0.computerkorner.org",
+                    "isAutoAdded": false,
+                    "hasWebsite": false,
+                    "ipaddressesAggregate": {
+                        "count": 0
+                    },
+                    "dnsrecordsAggregate": {
+                        "count": 0
+                    },
+                    "findingsAggregate": {
+                        "count": "Null"
+                    },
+                    "updatedAt": "2025-01-05T19:02:59Z"
+                }
+            ]
+        },
+        "IpAddress": {
+            "queryIPAddress": [
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "45.33.32.156",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:29:39.204464Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "85.10.225.138",
+                    "isAutoAdded": true,
+                    "country": "Germany",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.558594Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "54.243.193.135",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.55644Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "23.93.86.2",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.555907Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.205.25.32",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:36:20.733921Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "34.202.86.158",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T08:36:20.733608Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "34.212.255.210",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.940521Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.43.78.145",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.939578Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "54.198.49.127",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.938703Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.89.234.124",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.942418Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "192.124.249.161",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.938317Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "44.228.139.57",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.94027Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "15.197.225.128",
+                    "isAutoAdded": true,
+                    "country": "Canada",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.939995Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "44.231.167.114",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.941134Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "199.60.103.28",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.936859Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.96.79.72",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.941543Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "108.156.201.29",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.93804Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "34.213.141.105",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.937384Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "54.212.177.133",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.9422Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "18.160.249.27",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.940828Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.84.52.82",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.937785Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "65.61.137.117",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-11T10:26:41.856704Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "192.0.66.58",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.666758Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "162.159.138.78",
+                    "isAutoAdded": true,
+                    "country": "Canada",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667703Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.96.164.136",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667214Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "199.60.103.30",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665743Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "18.225.26.202",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667553Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "199.60.103.226",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665107Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "199.60.103.57",
+                    "isAutoAdded": true,
+                    "country": "Null",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.668144Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "52.168.116.128",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665502Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "13.59.22.214",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.664808Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "1.1.1.1",
+                    "isAutoAdded": true,
+                    "country": "Null",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-12-09T04:48:28Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "10.10.10.10",
+                    "isAutoAdded": true,
+                    "country": "Null",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-12-09T04:50:52Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "172.67.211.49",
+                    "isAutoAdded": true,
+                    "country": "Canada",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2024-12-12T19:48:19.396442Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "216.239.36.21",
+                    "isAutoAdded": true,
+                    "country": "Null",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.775258Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "162.215.226.3",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.774558Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "64.233.181.121",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.77485Z"
+                },
+                {
+                    "id": "breachlock_downloads.breachlock.com",
+                    "name": "104.21.61.143",
+                    "isAutoAdded": true,
+                    "country": "United States",
+                    "org": "breach",
+                    "ipblock": {
+                        "name": ""
+                    },
+                    "updatedAt": "2025-01-14T18:14:53.931474Z"
+                }
+            ]
+        },
+        "URL": {
+            "queryURL": [
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/form",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/forms/{id}",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/organizations",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/organizations/{organization_id}/enrollment_periods",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/organizations/{organization_id}/enrollment_periods/{enrollment_pe",
+                    "endpointsAggregate": {
+                        "count": 2
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/organizations/{organization_id}/program_groups",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/parents",
+                    "endpointsAggregate": {
+                        "count": 2
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/parents/{id}",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/parents/{id}/relationships",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/parents/{id}/relationships/{student_id}",
+                    "endpointsAggregate": {
+                        "count": 2
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/students",
+                    "endpointsAggregate": {
+                        "count": 2
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/students/{id}",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/students/{id}/relationships",
+                    "endpointsAggregate": {
+                        "count": 1
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                },
+                {
+                    "id": "NULL",
+                    "name": "https://www.exampleapi.com/api/rest/v1/students/{id}/relationships/{parent_id}",
+                    "endpointsAggregate": {
+                        "count": 2
+                    },
+                    "isAutoAdded": true,
+                    "isReachable": true,
+                    "findingsAggregate": {
+                        "count": 0
+                    },
+                    "updatedAt": "NULL",
+                    "domains": [
+                        {
+                            "id": "NULL",
+                            "name": "breachlock.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        "IpBlocks": {
+            "queryIPBlock": [
+                {
+                    "id": "breachlock_13.35.208.0/21",
+                    "name": "13.35.208.0/21",
+                    "isAutoAdded": true,
+                    "asn": {
+                       "name": "AS16509",
+                       "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 7
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.255986Z"
+                },
+                {
+                    "id": "breachlock_13.35.224.0/21",
+                    "name": "13.35.224.0/21",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS16509",
+                        "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 8
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.256703Z"
+                },
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "18.155.48.0/21",
+                    "isAutoAdded": true,
+                    "asn": {
+                       "name": "AS16509",
+                        "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 7
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258438Z"
+                },
+                {
+                    "id": "breachlock_192.124.249.0/24",
+                    "name": "192.124.249.0/24",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS30148",
+                        "orgName": "Sucuri"
+                    },
+                    "ipaddressesAggregate": {
+                       "count": 1
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258657Z"
+                },
+                {
+                    "id": "breachlock_199.60.103.0/24",
+                    "name": "199.60.103.0/24",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS209242",
+                        "orgName": "Cloudflare London, LLC"
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 2
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258833Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "2600:9000:2078::/48",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name":"AS16509",
+                        "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 16
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.256128Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "2600:9000:2085::/48",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS16509",
+                        "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 16
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.257644Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2572::/48",
+                    "name": "2600:9000:2572::/48",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS16509",
+                        "orgName": "Amazon.com, Inc."
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 16
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258584Z"
+                },
+                {
+                    "id": "breachlock_2603:1000::/25",
+                    "name": "2603:1000::/25",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS8075",
+                        "orgName": "Microsoft Corporation"
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 4
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258257Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "2606:2c40::/48",
+                    "isAutoAdded": true,
+                    "asn": {
+                        "name": "AS209242",
+                        "orgName": "Cloudflare London, LLC"
+                    },
+                    "ipaddressesAggregate": {
+                        "count": 2
+                    },
+                    "updatedAt": "2023-11-19T08:42:44.258869Z"
+                }
+            ]
+        },
+        "AssetGroup": {
+            "queryAssetGroup": []
+        }
+    },
+    "metadata": {}
+}

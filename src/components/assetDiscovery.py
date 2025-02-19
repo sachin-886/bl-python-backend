@@ -1,0 +1,283 @@
+from src.exception import CustomException
+from src.utils import MainUtils
+from datetime import datetime
+from src.constants import *
+from src.logger import logger
+import sys
+import numpy as np
+
+class AddassetDiscoveryData:
+    def __init__(self):
+        self.utils = MainUtils()
+
+    def domain_data_table(self,data):
+        try:
+            domain_data=[]
+            def checkautoAdded(value):
+                if value=="NULL":
+                    return True
+                else:
+                    return value
+
+            def checkassetcount(value):
+                if value=="NULL":
+                    return 21
+                else:
+                    return value
+            def checkasnscount(value):
+                if value=="NULL":
+                    return 1
+                else:
+                    return value
+                
+            def checkvulncount(value):
+                if value=="NULL":
+                    return 50
+                else:
+                    return value
+            def checkId(value):
+                if value=="ascender.co":
+                    return "ascenderMain"
+                elif value=="testparker.com":
+                    return "testparkerMain"
+                else:
+                    return "acmeMain"
+            for idx,value in enumerate(data["Name"]):
+                domain_data.append({
+                    "id": checkId(data["Name"][idx]),
+                    "name": value,
+                    "isAutoAdded": checkautoAdded(data["IsAutoAdded"][idx]),
+                    "assetsAggregate": {
+                        "count": checkassetcount(data["AssetsAggregate_count"][idx]),
+                        },
+                    "asnsAggregate": {
+                        "count": checkasnscount(data["AsnsAggregate_count"][idx]),
+                        },
+                    "vulnerabilitiesAggregate": {
+                        "count": checkvulncount(data["VulnerabilitiesAggregate_count"][idx]),
+                        },
+                        })
+            return domain_data
+        except Exception as e:
+            raise CustomException(e,sys)
+        
+    def subdomain_data_table(self,data):
+        try:
+            subdomain_data = []
+            def checkId(value):
+                id = value.split('.')
+                return id[-2]+'.'+id[-1]
+            def checkAutoAdded(value):
+                if value == "Manually Added":
+                    return False
+                else:
+                    return True
+            def checkwebsite(value):
+                if value == "Active":
+                    return True
+                else:
+                    return False
+            def checkAgg(value):
+                if value=="NULL":
+                    return 0
+                else:
+                    return value
+
+            for idx,value in enumerate(data["Name"]):
+                subdomain_data.append( {
+                    "id": checkId(data["Name"][idx]),
+                    "name": data["Subdomains"][idx],
+                    "isAutoAdded": checkAutoAdded(data["Asset Label"][idx]),
+                    "hasWebsite": checkwebsite(data["Status"][idx]),
+                    "ipaddressesAggregate": { "count": checkAgg(data["IpAddressAggregate"][idx]) },
+                    "dnsrecordsAggregate": { "count": checkAgg(data["DnsrecordsAggregate"][idx]) },
+                    "findingsAggregate": { "count": checkAgg(data["Vulnerability Count"][idx]) },
+                    "updatedAt": data["Discovered On"][idx],
+                        })
+            return subdomain_data
+        except Exception as e:
+            raise CustomException(e,sys)
+
+    def ip_address_data_table(self,data):
+         try:
+            ip_address_data = []
+            def checkId(value):
+                if value=="NULL" or value==np.nan:
+                    return "breachlock_downloads.breachlock.com"
+                else:
+                    return value
+            def check_ip_block_name(value):
+                if value=="NULL" or value==np.nan:
+                    return ""
+                else:
+                    return value
+            def checkAutoAdded(value):
+                if value=="NULL" or value==np.nan:
+                    return True
+                else:
+                    return value
+            def checkorg(value):
+                if value=="NULL" or value==np.nan:
+                    return "breach"
+                else:
+                    return value
+                
+            for idx,value in enumerate(data["Name"]):
+                ip_address_data.append( {
+                        "id":checkId(data["Id"][idx]),
+                        "name": value,
+                        "isAutoAdded": checkAutoAdded(data["IsAutoAdded"][idx]),
+                        "country":data["Country"][idx],
+                        "org": checkorg(data["Organisation"][idx]),
+                        "ipblock": {
+                            "name": check_ip_block_name(data["IpblockName"][idx]),
+                            },
+                        "updatedAt": data["Discovered On"][idx],
+                        })
+            return ip_address_data
+         except Exception as e:
+             raise CustomException(e,sys)
+    
+    def url_data_table(self,data):
+         try:
+            url_data = []
+            def checkbool(value):
+                if value == "NULL":
+                    return True
+            def checkagg(value):
+                if value == "NULL":
+                    return 0
+            def checkDomainName(value):
+                if value=="NULL":
+                    return "breachlock.com"
+            for idx,value in enumerate(data["Endpoints URL"]):
+                url_data.append({
+                    "id": data["Id"][idx],
+                    "name": value,
+                    "endpointsAggregate": {
+                        "count": data["Total Requests"][idx],
+                        },
+                    "isAutoAdded": checkbool(data["IsAutoAdded"][idx]),
+                    "isReachable": checkbool(data["IsReachable"][idx]),
+                    "findingsAggregate": {
+                        "count": checkagg(data["FindingsAggregate"][idx]),
+                        },
+                    "updatedAt": data["UpdatedAt"][idx],
+                    "domains": [
+                        {
+                            "id": data["DomainsId"][idx],
+                            "name": checkDomainName(data["DomainsName"][idx]),
+                        },
+                        ],
+                    })
+            return url_data
+         except Exception as e:
+             raise CustomException(e,sys)
+    
+    def ip_block_data_table(self,data):
+         try:
+            ip_block_data = []
+            for idx,value in enumerate(data["Name"]):
+                ip_block_data.append({
+                            "id": data["Id"][idx],
+                            "name": value,
+                            "isAutoAdded": data["IsAutoAdded"][idx],
+                            "asn": {
+                                    "name": data["asnName"][idx],
+                                "orgName": data["Organisation"][idx],
+                                },
+                            "ipaddressesAggregate": {
+                                    "count": data["IpaddressAggregate"][idx],
+                                },
+                            "updatedAt": data["UpdatedAt"][idx],
+                        })
+            return ip_block_data
+         except Exception as e:
+             raise CustomException(e,sys)
+        
+    def asset_group_data_table(self,data):
+         try:
+            asset_data = []
+            for idx,value in enumerate(data["Name"]):
+                asset_data.append({
+                            "name":value,
+                            "id": data["Id"][idx],
+                            "assetType": data["AssetType"][idx],
+                            "assetsAggregate": {
+                                "count": data["AssetAggregate"][idx],
+                                },
+                            "ipaddressesAggregate": {
+                                "count": data["IpAddressAggregate"][idx],
+                                },
+                        "vulnerabilityCount": data["VulnearabilityCount"][idx],
+                        "updatedAt": data["UpdatedAt"][idx],
+                        "isArchived": data["isArchived"][idx],
+                        "description": data["Description"][idx],
+                        "domain": { "id": data["DomainId"][idx], "name": data["DomainName"][idx] },
+                                })
+            return asset_data
+         except Exception as e:
+             raise CustomException(e,sys)
+    
+    def initiate_data_ingestion(self,data,sheet_name,section_name):
+         try:
+            if section_name==domain_section:
+                logger.info(":) Data Ingestion For Domain Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(domain_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.domain_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            elif section_name==subdomain_section:
+                logger.info(":) Data Ingestion For Subdomain Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(subdomain_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.subdomain_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            elif section_name==ipaddress_section:
+                logger.info(":) Data Ingestion For IpAddress Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(ip_address_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.ip_address_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            elif section_name==url_section:
+                logger.info(":) Data Ingestion For URL Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(url_data_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.url_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name==ipblocks_section:
+                logger.info(":) Data Ingestion For IPBlock Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(ip_block_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.ip_block_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            else:
+                logger.info(":) Data Ingestion For AssetGroups Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(asset_group_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.asset_group_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+         except Exception as e:
+             raise CustomException(e,sys)
+              
+    
