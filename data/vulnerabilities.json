@@ -1,6 +1,6 @@
 {
     "ASM": {
-        "queryVulnerability ": [
+        "queryVulnerability": [
             {
                 "id": "NULL",
                 "name": "HTTP Methods Enabled Identified",

@@ -1,0 +1,12 @@
+[2025-02-20 10:43:26,470] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 10:44:00,217] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 10:44:00,698] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 10:44:00,905] 36 src.logger - INFO - Incoming request: GET https://7c95-2401-4900-8844-8ddc-38ec-b067-f784-d53b.ngrok-free.app/getVulnerabilities
+[2025-02-20 10:44:00,923] 38 src.logger - INFO - Response status: 200
+[2025-02-20 11:03:30,393] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:03:32,415] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:03:32,553] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:03:47,531] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:03:47,715] 22 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:09:48,664] 19 src.logger - INFO - :) LOGGING START :)
+[2025-02-20 11:09:48,797] 19 src.logger - INFO - :) LOGGING START :)

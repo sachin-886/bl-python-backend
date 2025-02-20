@@ -1,15 +1,14 @@
 import warnings
 warnings.filterwarnings("ignore")
-from fastapi import FastAPI, UploadFile, File, HTTPException,Form
+from fastapi import FastAPI, UploadFile, File,Form
 from pydantic import BaseModel
 from typing import List,Dict,Optional
-import pandas as pd
+from starlette.middleware.cors import CORSMiddleware
 from src.utils import MainUtils
 from src.components.vulnerabilities import AddVulnerabilityData
 from src.components.assetDiscovery import AddassetDiscoveryData
 from src.constants import *
 from src.logger import logger
-import os
 import uvicorn
 vul_data_ingestor = AddVulnerabilityData()
 AssetDiscovery_data_ingestor = AddassetDiscoveryData()
@@ -18,6 +17,16 @@ utils = MainUtils()
 app = FastAPI()
 
 logger.info(":) LOGGING START :)")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
+
+
 
 class VulnerabilityData(BaseModel):
     vulnerability_section : str 
