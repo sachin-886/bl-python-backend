@@ -6867,5 +6867,394 @@
             ],
             "dnsrecordsAggregate": 38
         }
+    },
+    "IPBlockIPAddress": {
+        "getIPBlock": {
+            "ipaddresses": [
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "45.33.32.156",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "18.155.48.0/21"
+                    },
+                    "updatedAt": "2024-11-11T08:29:39.204464Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "85.10.225.138",
+                    "country": "Germany",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2606:2c40::/48"
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.558594Z"
+                },
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "54.243.193.135",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "18.155.48.0/21"
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.55644Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "23.93.86.2",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2606:2c40::/48"
+                    },
+                    "updatedAt": "2024-11-11T08:32:36.555907Z"
+                },
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "52.205.25.32",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "18.155.48.0/21"
+                    },
+                    "updatedAt": "2024-11-11T08:36:20.733921Z"
+                },
+                {
+                    "id": "breachlock_192.124.249.0/24",
+                    "name": "34.202.86.158",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "192.124.249.0/24"
+                    },
+                    "updatedAt": "2024-11-11T08:36:20.733608Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "34.212.255.210",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2078::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.940521Z"
+                },
+                {
+                    "id": "breachlock_13.35.224.0/21",
+                    "name": "52.43.78.145",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "13.35.224.0/21"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.939578Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "54.198.49.127",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2085::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.938703Z"
+                },
+                {
+                    "id": "breachlock_199.60.103.0/24",
+                    "name": "52.89.234.124",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "199.60.103.0/24"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.942418Z"
+                },
+                {
+                    "id": "breachlock_192.124.249.0/24",
+                    "name": "192.124.249.161",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "192.124.249.0/24"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.938317Z"
+                },
+                {
+                    "id": "breachlock_13.35.224.0/21",
+                    "name": "44.228.139.57",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "13.35.224.0/21"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.94027Z"
+                },
+                {
+                    "id": "breachlock_13.35.224.0/21",
+                    "name": "15.197.225.128",
+                    "country": "Canada",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "13.35.224.0/21"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.939995Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "44.231.167.114",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2085::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.941134Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "199.60.103.28",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2078::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.936859Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "52.96.79.72",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2606:2c40::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.941543Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "108.156.201.29",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2606:2c40::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.93804Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "34.213.141.105",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2078::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.937384Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "54.212.177.133",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2600:9000:2085::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.9422Z"
+                },
+                {
+                    "id": "breachlock_2606:2c40::/48",
+                    "name": "18.160.249.27",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2606:2c40::/48"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.940828Z"
+                },
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "52.84.52.82",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "18.155.48.0/21"
+                    },
+                    "updatedAt": "2024-11-11T10:23:58.937785Z"
+                },
+                {
+                    "id": "breachlock_199.60.103.0/24",
+                    "name": "65.61.137.117",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "199.60.103.0/24"
+                    },
+                    "updatedAt": "2024-11-11T10:26:41.856704Z"
+                },
+                {
+                    "id": "breachlock_18.155.48.0/21",
+                    "name": "192.0.66.58",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "18.155.48.0/21"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.666758Z"
+                },
+                {
+                    "id": "breachlock_13.35.208.0/21",
+                    "name": "162.159.138.78",
+                    "country": "Canada",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "13.35.208.0/21"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667703Z"
+                },
+                {
+                    "id": "breachlock_13.35.224.0/21",
+                    "name": "52.96.164.136",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "13.35.224.0/21"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667214Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2572::/48",
+                    "name": "199.60.103.30",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2600:9000:2572::/48"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665743Z"
+                },
+                {
+                    "id": "breachlock_199.60.103.0/24",
+                    "name": "18.225.26.202",
+                    "country": "United States",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "199.60.103.0/24"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.667553Z"
+                },
+                {
+                    "id": "breachlock_2603:1000::/25",
+                    "name": "199.60.103.226",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2603:1000::/25"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665107Z"
+                },
+                {
+                    "id": "breachlock_2603:1000::/25",
+                    "name": "199.60.103.57",
+                    "country": "Null",
+                    "org": "Google Inc",
+                    "ipblock": {
+                        "name": "2603:1000::/25"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.668144Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "52.168.116.128",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2600:9000:2085::/48"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.665502Z"
+                },
+                {
+                    "id": "breachlock_192.124.249.0/24",
+                    "name": "13.59.22.214",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "192.124.249.0/24"
+                    },
+                    "updatedAt": "2024-11-13T19:42:13.664808Z"
+                },
+                {
+                    "id": "breachlock_2603:1000::/25",
+                    "name": "1.1.1.1",
+                    "country": "Null",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2603:1000::/25"
+                    },
+                    "updatedAt": "2024-12-09T04:48:28Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2085::/48",
+                    "name": "10.10.10.10",
+                    "country": "Null",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2600:9000:2085::/48"
+                    },
+                    "updatedAt": "2024-12-09T04:50:52Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "172.67.211.49",
+                    "country": "Canada",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2600:9000:2078::/48"
+                    },
+                    "updatedAt": "2024-12-12T19:48:19.396442Z"
+                },
+                {
+                    "id": "breachlock_2603:1000::/25",
+                    "name": "216.239.36.21",
+                    "country": "Null",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "2603:1000::/25"
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.775258Z"
+                },
+                {
+                    "id": "breachlock_199.60.103.0/24",
+                    "name": "162.215.226.3",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "199.60.103.0/24"
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.774558Z"
+                },
+                {
+                    "id": "breachlock_192.124.249.0/24",
+                    "name": "64.233.181.121",
+                    "country": "United States",
+                    "org": "Alphabet",
+                    "ipblock": {
+                        "name": "192.124.249.0/24"
+                    },
+                    "updatedAt": "2025-01-05T19:10:07.77485Z"
+                },
+                {
+                    "id": "breachlock_2600:9000:2078::/48",
+                    "name": "104.21.61.143",
+                    "country": "United States",
+                    "org": "Microsoft Corporation",
+                    "ipblock": {
+                        "name": "2600:9000:2078::/48"
+                    },
+                    "updatedAt": "2025-01-14T18:14:53.931474Z"
+                }
+            ],
+            "ipaddressesAggregate": {
+                "count": 38
+            }
+        }
     }
 }

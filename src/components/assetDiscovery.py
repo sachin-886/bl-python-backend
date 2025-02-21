@@ -349,6 +349,29 @@ class AddassetDiscoveryData:
         except Exception as e:
             raise CustomException(e,sys)
 
+    def ipblockIpAddress_table(self,data):
+        json_data=[]
+        read_data = self.utils.read_json_file(assetDiscovery_file)
+        ids = [obj["id"] for obj in read_data["IpBlocks"]["data"]["queryIPBlock"]]
+        ip_block_name = [id.split("breachlock_")[1] for id in ids]
+        def checkorg(value):
+            if value=="NULL":
+                return np.random.choice(["Microsoft Corporation","Google Inc","Alphabet"])
+            else:
+                return value
+        for idx,value in enumerate(data["Name"]):
+            index = np.random.choice([i for i in range(len(ids))])
+            json_data.append({
+			"id": ids[index],
+			"name": value,
+			"country": data["Country"][idx],
+			"org": checkorg(data["ORG"][idx]),
+			"ipblock": {
+				"name": ip_block_name[index],
+				},
+			"updatedAt": data["Discovered On"][idx],
+			})
+        return{"ipaddresses":json_data,"ipaddressesAggregate":{"count":len(json_data)}}
 
     def initiate_data_ingestion(self,data,sheet_name,section_name):
          try:
@@ -436,6 +459,16 @@ class AddassetDiscoveryData:
                 df = self.utils.create_missing_field(df,fields)
                 csv_json = self.utils.dataframe_json(df)
                 upcoming_data = self.dns_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="IPBlockIPAddress":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(ipBlockIpaddress_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.ipblockIpAddress_table(csv_json)
                 logger.info(":) Data Ingestion Completed :)")
                 return upcoming_data
 

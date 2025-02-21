@@ -195,6 +195,17 @@ finding_pocs_schema ={
 			"updatedAt":"UpdatedAt"
 			}
 
+ipBlockIpaddress_schema = {
+			"id": "Id",
+			"name": "Name",
+			"country": "Country",
+			"org": "ORG",
+			"ipblock": {
+				"name": "IpBlockName",
+				},
+			"updatedAt": "Discovered On",
+			}
+
 ip_block_schema = {
     "id": "Id",
     "name": "Name",
