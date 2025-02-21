@@ -1,16 +1,95 @@
 ## JSON SCHEMA  VULNERABILITIES
 
-data_schema = {
+domain_vuln_schema ={
+            "id": "Id",
+			"name": "vulnerability/name",
+			"severity": "severity/key",
+			"cvssScore": "cvssScore/baseScore",
+			"updatedAt": "Identified On",
+			}
+
+subdomain_IPAddress_schema = {
+			"id": "Id",
+			"name": "Name",
+			"country": "Country",
+			"org": "Address",
+			"ipblock": "IP Block",
+			"updatedAt": "Discovered On",
+			}
+
+dns_schema = {
+			"id": "Id",
+			"name": "Name",
+			"record": "Record",
+			"updatedAt": "Discovered On"
+			}
+
+asset_vulnerability_schema = {
         "id": "Id",
         "name": "Name",
+        "pentestName": "pentestName",
         "is_update": "IsUpdate",
+        "tags" : "tags",
+        "description":"description",
+        "recommendation":"recommendation",
+        "cvssVector":"cvssVector",
+        "cvssScore":"cvssScore",
         "severity": "Risk",
         "isFalsePositive": "IsFalsePositive",
         "updatedAt": "UpdatedAT",
         "createdAt": "Identified On",
-        "pentest": {"id": "pentest_id", "name": "pentest_name","ptId": "ptId"},
+        "pentest": {"id": "pentest_id", "name": "pentest/name"},
+        "findings": [
+				{
+					"id": "findings/id",
+					"wfName": "findings/wfName",
+					"executionId": "findings/executionId",
+					"findingType": "findings/findingType",
+				}
+			],
         "findingsAggregate": { "count": "Assets Impacted" }
       }
+
+ptaas_vulnerability_schema = {
+        "id": "Id",
+        "name": "Name",
+        "tags" : "tags",
+        "description":"description",
+        "recommendation":"recommendation",
+        "cvssVector":"cvssVector",
+        "cvssScore":"cvssScore",
+        "severity": "Risk",
+        "updatedAt": "UpdatedAT",
+        "createdAt": "Identified On",
+        "pentest": {"id": "pentest_id", "name": "pentest/name","ptId": "pentest/ptId"},
+        "findings": [
+				{
+					"id": "findings/id",
+					"wfName": "findings/wfName",
+					"executionId": "findings/executionId",
+					"findingType": "findings/findingType",
+                    "isManual":"findings/isManual",
+                    "asset": {
+						"id": "findings/asset/id",
+						"name": "findings/asset/name",
+						"isArchived": "findings/asset/isArchived",
+					},
+                    "ipaddress": "findings/ipaddress",
+                     "url": "findings/url",
+                     "findingPocs": [{ "id": "findings/findingPocs/id" }]
+
+				}
+			],
+        "findingsAggregate": { "count": "Assets Impacted" }
+      }
+
+asn_schema = {
+    "id": "Id",
+    "name": "Subdomains",
+    "orgName": "orgName",
+    "updatedAt": "Identified On",
+	}
+
 
 vul_metadata_schema =  {
       'id': 'vulnerablity/id',
@@ -106,7 +185,15 @@ url_data_schema = {
           },
           ],
       }
-
+finding_pocs_schema ={
+			"id": "Id",
+			"urls": "vulnerability/references/url",
+			"description": "vulnerability/description",
+            "poc":"pocs/url",
+			"ports": "ports",
+			"endpoints": "endpoints",
+			"updatedAt":"UpdatedAt"
+			}
 
 ip_block_schema = {
     "id": "Id",

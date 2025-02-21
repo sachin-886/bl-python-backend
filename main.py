@@ -28,7 +28,7 @@ app.add_middleware(
 
 
 
-class VulnerabilityData(BaseModel):
+class VulnerabilityData(BaseModel): 
     vulnerability_section : str 
     sheet_name : Optional[str]
 
@@ -45,7 +45,10 @@ def home():
 
 @app.post("/updateVulnerabilities")
 def update_vulnerability_json(vulnerability_section:str=Form(...),data:UploadFile=File(...),sheet_name: Optional[str]=Form(None)):
-    upcoming_data = vul_data_ingestor.initiate_data_ingestion(data,sheet_name,vulnerability_section)
+    if sheet_name=='':
+        upcoming_data = vul_data_ingestor.initiate_data_ingestion(data,None,vulnerability_section)
+    else:
+        upcoming_data = vul_data_ingestor.initiate_data_ingestion(data,sheet_name,vulnerability_section)
     logger.info(":) OVERWRITING JSON FILE :)")
     vulnerability_data = utils.read_json_file(vulnerabilities_file)
     if vulnerability_section in list(vulnerability_data.keys()):
@@ -76,9 +79,9 @@ def update_asset_discovery(section_name:str=Form(...),data:UploadFile=File(...),
     else:
         upcoming_data = AssetDiscovery_data_ingestor.initiate_data_ingestion(data,sheet_name,section_name)
     assetDiscoveryData = utils.read_json_file(assetDiscovery_file)
-    if section_name in list(assetDiscoveryData["table"].keys()):
-        variable_name = list(assetDiscoveryData["table"][section_name].keys())[0]
-        assetDiscoveryData["table"][section_name][variable_name] = upcoming_data
+    if section_name in list(assetDiscoveryData.keys()):
+        variable_name = list(assetDiscoveryData[section_name].keys())[0]
+        assetDiscoveryData[section_name][variable_name] = upcoming_data
         utils.write_json_file(assetDiscovery_file,assetDiscoveryData)
         return {
             "success":True,
@@ -87,10 +90,11 @@ def update_asset_discovery(section_name:str=Form(...),data:UploadFile=File(...),
     else:
         return {"success":True,"error":"Invalid section name"}
 
+
 @app.get("/getassetDiscovery")
 def get_asset_discovery():
     assetDiscoveryData = utils.read_json_file(assetDiscovery_file)
-    return {"success":True,"data":assetDiscoveryData["table"]}
+    return {"success":True,"data":assetDiscoveryData}
 
 
 

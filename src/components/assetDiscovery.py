@@ -36,15 +36,12 @@ class AddassetDiscoveryData:
                 else:
                     return value
             def checkId(value):
-                if value=="ascender.co":
-                    return "ascenderMain"
-                elif value=="testparker.com":
-                    return "testparkerMain"
-                else:
-                    return "acmeMain"
-            for idx,value in enumerate(data["Name"]):
+                splitted = value.split('.')
+                print(splitted[0]+"Main")
+                return splitted[0]+"Main"
+            for idx,value in enumerate(list(set(data["Name"]))):
                 domain_data.append({
-                    "id": checkId(data["Name"][idx]),
+                    "id": checkId(value),
                     "name": value,
                     "isAutoAdded": checkautoAdded(data["IsAutoAdded"][idx]),
                     "assetsAggregate": {
@@ -66,7 +63,7 @@ class AddassetDiscoveryData:
             subdomain_data = []
             def checkId(value):
                 id = value.split('.')
-                return id[-2]+'.'+id[-1]
+                return id[-2]+'Main'
             def checkAutoAdded(value):
                 if value == "Manually Added":
                     return False
@@ -102,9 +99,11 @@ class AddassetDiscoveryData:
          try:
             ip_address_data = []
             def checkId(value):
+                ids = ["brokencrystalsMain","ascenderMain","vulnwebMain","scanmeMain","testparkerMain","computerkornerMain","testfireMain","tuitionrewardsMain","acmeMain"]
                 if value=="NULL" or value==np.nan:
-                    return "breachlock_downloads.breachlock.com"
-                else:
+                    id = np.random.choice(ids) 
+                    return id
+                else :
                     return value
             def check_ip_block_name(value):
                 if value=="NULL" or value==np.nan:
@@ -134,7 +133,7 @@ class AddassetDiscoveryData:
                             },
                         "updatedAt": data["Discovered On"][idx],
                         })
-            return ip_address_data
+            return {"queryIPAddress":ip_address_data,"aggregateIPAddress":len(ip_address_data)}
          except Exception as e:
              raise CustomException(e,sys)
     
@@ -150,9 +149,20 @@ class AddassetDiscoveryData:
             def checkDomainName(value):
                 if value=="NULL":
                     return "breachlock.com"
+            def checkId(value):
+                if value=="NULL":
+                    return "04x3"
+                else:
+                    return value
+            def checkdate(value):
+                if value=="NULL":
+                    date = str(datetime.now())  
+                    return date
+                else:
+                    return datetime.strptime(value, "%d-%m-%YT%H:%M").strftime("%Y-%m-%dT%H:%M:%S")
             for idx,value in enumerate(data["Endpoints URL"]):
                 url_data.append({
-                    "id": data["Id"][idx],
+                    "id": checkId(data["Id"][idx])+str(idx),
                     "name": value,
                     "endpointsAggregate": {
                         "count": data["Total Requests"][idx],
@@ -162,17 +172,48 @@ class AddassetDiscoveryData:
                     "findingsAggregate": {
                         "count": checkagg(data["FindingsAggregate"][idx]),
                         },
-                    "updatedAt": data["UpdatedAt"][idx],
+                    "updatedAt": checkdate(data["UpdatedAt"][idx]),
                     "domains": [
                         {
-                            "id": data["DomainsId"][idx],
+                            "id": checkId(data["DomainsId"][idx]),
                             "name": checkDomainName(data["DomainsName"][idx]),
                         },
                         ],
                     })
-            return url_data
+            return {"queryURL":url_data,"aggregateURL":len(url_data)}
          except Exception as e:
              raise CustomException(e,sys)
+         
+    def asn_data(self,data):
+        try:
+            json_data=[]
+            def checkId(value):
+                id = value.split('.')
+                return id[-2]+"Main"
+            
+            def checkorg(value):
+                if value=="NULL":
+                    return "Breachlock"
+                else:
+                    return value
+            def checkdate(value):
+                if value=="NULL":
+                    return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f") + "Z"
+                else:
+                    return datetime.strptime(value, "%d-%m-%YT%H:%M").strftime("%Y-%m-%dT%H:%M:%S")
+            for idx,value in enumerate(data["Name"]):
+                json_data.append({
+                    "id": checkId(value),
+                    "name": data["Subdomains"][idx],
+                    "orgName": checkorg(data["orgName"][idx]),
+                    "updatedAt": checkdate(data["Identified On"][idx])
+                    })
+            return {
+                "asns":json_data,
+                "aggregateASN":{"count":len(json_data)}
+            }
+        except Exception as e:
+            raise CustomException(e,sys)
     
     def ip_block_data_table(self,data):
          try:
@@ -218,7 +259,97 @@ class AddassetDiscoveryData:
             return asset_data
          except Exception as e:
              raise CustomException(e,sys)
+
+    def domain_vulnerabilities_table(self,data):
+        try:
+            json_data = []
+            def checkId(value):
+                ids = ["brokencrystalsMain","ascenderMain","vulnwebMain","scanmeMain","testparkerMain","computerkornerMain","testfireMain","tuitionrewardsMain","acmeMain"]
+                if value=="NULL":
+                    id = np.random.choice(ids) 
+                    return id
+                else :
+                    return value
+            
+            def checkcvss(value):
+                if value=="Null" or value=="NULL":
+                    return np.random.uniform(1,10)
+                else:
+                    return value
+            def checkdate(value):
+                if value=="NULL":
+                    return str(datetime.now())
+                else:
+                    return value
+            for idx,value in enumerate(data['vulnerability/name']):
+                json_data.append({
+                "id": checkId(data["Id"][idx]),
+                "name": value,
+                "severity": data["severity/key"][idx],
+                "cvssScore": checkcvss(data["cvssScore/baseScore"][idx]),
+                "updatedAt": checkdate(data["Identified On"][idx]),
+                })
+            return {"id":"0x4","vulnerabilities":json_data,"vulnerabilitiesAggregate":len(json_data)}
+        except Exception as e:
+            raise CustomException(e,sys)
+
+    def subdomain_ipAddress_table(self,data):
+        try:
+            def checkId(value):
+                ids = ["brokencrystalsMain","ascenderMain","vulnwebMain","scanmeMain","testparkerMain","computerkornerMain","testfireMain","tuitionrewardsMain","acmeMain"]
+                if value=="NULL":
+                    id = np.random.choice(ids) 
+                    return id
+                else :
+                    return value
+            def checkipblock(value):
+                if value=="Null" or value=="NULL" or value==np.nan:
+                    return "null"
+                else:
+                    return value
+            json_data = []
+            for idx,value in enumerate(data["Name"]):
+                json_data.append({
+                    "id": checkId(data["Id"][idx]),
+                    "name": value,
+                    "country": data["Country"][idx],
+                    "org": data["Address"][idx],
+                    "ipblock": checkipblock(data["IP Block"][idx]),
+                    "updatedAt": data["Discovered On"][idx],
+                })
+            return {"ipaddresses":json_data,"ipaddressesAggregate":len(json_data)}
+        except Exception as e:
+            raise CustomException(e,sys)
     
+
+    def dns_data_table(self,data):
+        try:
+            def checkId(value):
+                ids = ["brokencrystalsMain","ascenderMain","vulnwebMain","scanmeMain","testparkerMain","computerkornerMain","testfireMain","tuitionrewardsMain","acmeMain"]
+                if value=="NULL":
+                    id = np.random.choice(ids) 
+                    return id
+                else :
+                    return value
+                
+            def checkRecord(value):
+                if value=="NULL":
+                    return np.random.choice(["A","CNAME"])
+                else:
+                    return value
+            json_data =[]
+            for idx,value in enumerate(data["Name"]):
+                json_data.append({
+                "id": checkId(data["Id"][idx]),
+                "name": value,
+                "record": checkRecord(data["Record"][idx]),
+                "updatedAt": data["Discovered On"][idx]
+                })
+            return {"dnsrecords":json_data,"dnsrecordsAggregate":len(json_data)}
+        except Exception as e:
+            raise CustomException(e,sys)
+
+
     def initiate_data_ingestion(self,data,sheet_name,section_name):
          try:
             if section_name==domain_section:
@@ -267,6 +398,47 @@ class AddassetDiscoveryData:
                 upcoming_data = self.ip_block_data_table(csv_json)
                 logger.info(":) Data Ingestion Completed :)")
                 return upcoming_data
+            
+            elif section_name=="ASN":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(asn_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.asn_data(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="domain_vulnerabilities":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(domain_vuln_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.domain_vulnerabilities_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="subdomain_IPAddress":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(subdomain_IPAddress_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.subdomain_ipAddress_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="DNS":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(dns_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.dns_data_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+
             
             else:
                 logger.info(":) Data Ingestion For AssetGroups Section Started :)")
