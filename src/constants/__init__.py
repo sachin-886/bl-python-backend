@@ -195,6 +195,24 @@ finding_pocs_schema ={
 			"updatedAt":"UpdatedAt"
 			}
 
+subdomain_vulnerabilities_schema = {
+			"id": "Id",
+			"name": "Name",
+			"vulnerability": {
+				"cvssScore":"cvssScore/baseScore",
+				"severity": "severity/key",
+				"id": "Id",
+				"name": "vulnerability/Name",
+				},
+			"wfName": "wfName",
+			"isAutoAdded": "IsAutoAdded",
+			"isFalsePositive": "IsFalsePositive",
+			"isManual": "isManual",
+			"isPatched": "isPatched",
+			"updatedAt": "UpdatedAt",
+			"findingType": "findingType",
+			}
+
 ipBlockIpaddress_schema = {
 			"id": "Id",
 			"name": "Name",

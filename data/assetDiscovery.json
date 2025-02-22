@@ -6090,6 +6090,557 @@
         },
         "message": "OK"
     },
+    "Subdomain_Vulnerabilities": {
+        "getAsset": {
+            "id": "0x58ff",
+            "findings": [
+                {
+                    "id": "testfireMain",
+                    "name": "HTTP Arbitrary Methods Enabled",
+                    "vulnerability": {
+                        "cvssScore": 0.0,
+                        "severity": "INFORMATIONAL",
+                        "id": "testfireMain",
+                        "name": "HTTP Arbitrary Methods Enabled"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": " Web Application Does Not Supply a Content-Security-Policy Header",
+                    "vulnerability": {
+                        "cvssScore": 3.1,
+                        "severity": "LOW",
+                        "id": "vulnwebMain",
+                        "name": " Web Application Does Not Supply a Content-Security-Policy Header"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "Web Application is Vulnerable to Clickjacking",
+                    "vulnerability": {
+                        "cvssScore": 3.7,
+                        "severity": "LOW",
+                        "id": "vulnwebMain",
+                        "name": "Web Application is Vulnerable to Clickjacking"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "Same-Site Scripting",
+                    "vulnerability": {
+                        "cvssScore": 7.78639008,
+                        "severity": "HIGH",
+                        "id": "vulnwebMain",
+                        "name": "Same-Site Scripting"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "tuitionrewardsMain",
+                    "name": "Web Application Permits MIME Type Sniffing",
+                    "vulnerability": {
+                        "cvssScore": 9.1,
+                        "severity": "CRITICAL",
+                        "id": "tuitionrewardsMain",
+                        "name": "Web Application Permits MIME Type Sniffing"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "computerkornerMain",
+                    "name": "Web Application Does Not Supply a Referrer-Policy Header",
+                    "vulnerability": {
+                        "cvssScore": 2.5740876,
+                        "severity": "LOW",
+                        "id": "computerkornerMain",
+                        "name": "Web Application Does Not Supply a Referrer-Policy Header"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "computerkornerMain",
+                    "name": "Web Application Vulnerable to Cross-Site Request Forgery (CSRF)",
+                    "vulnerability": {
+                        "cvssScore": 3.7,
+                        "severity": "LOW",
+                        "id": "computerkornerMain",
+                        "name": "Web Application Vulnerable to Cross-Site Request Forgery (CSRF)"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "scanmeMain",
+                    "name": "Server Software Version(s) Disclosed",
+                    "vulnerability": {
+                        "cvssScore": 3.7,
+                        "severity": "LOW",
+                        "id": "scanmeMain",
+                        "name": "Server Software Version(s) Disclosed"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "No DMARC Policy Supplied in DNS Records",
+                    "vulnerability": {
+                        "cvssScore": 3.7,
+                        "severity": "LOW",
+                        "id": "acmeMain",
+                        "name": "No DMARC Policy Supplied in DNS Records"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "computerkornerMain",
+                    "name": "Deprecated php version",
+                    "vulnerability": {
+                        "cvssScore": 4.8,
+                        "severity": "HIGH",
+                        "id": "computerkornerMain",
+                        "name": "Deprecated php version"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "Content Spoofing",
+                    "vulnerability": {
+                        "cvssScore": 0.0,
+                        "severity": "INFORMATIONAL",
+                        "id": "acmeMain",
+                        "name": "Content Spoofing"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "Content-type incorrectly stated",
+                    "vulnerability": {
+                        "cvssScore": 0.0,
+                        "severity": "INFORMATIONAL",
+                        "id": "acmeMain",
+                        "name": "Content-type incorrectly stated"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "scanmeMain",
+                    "name": "DNS Wildcard Enabled for Domain",
+                    "vulnerability": {
+                        "cvssScore": 0.0,
+                        "severity": "INFORMATIONAL",
+                        "id": "scanmeMain",
+                        "name": "DNS Wildcard Enabled for Domain"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "brokencrystalsMain",
+                    "name": "Insecure clientaccesspolicy.xml file",
+                    "vulnerability": {
+                        "cvssScore": 3.1,
+                        "severity": "LOW",
+                        "id": "brokencrystalsMain",
+                        "name": "Insecure clientaccesspolicy.xml file"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "ascenderMain",
+                    "name": "Web Application Does Not Supply a Permissions Policy",
+                    "vulnerability": {
+                        "cvssScore": 3.1,
+                        "severity": "LOW",
+                        "id": "ascenderMain",
+                        "name": "Web Application Does Not Supply a Permissions Policy"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "brokencrystalsMain",
+                    "name": "Directory Listing",
+                    "vulnerability": {
+                        "cvssScore": 4.95845112,
+                        "severity": "MEDIUM",
+                        "id": "brokencrystalsMain",
+                        "name": "Directory Listing"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "computerkornerMain",
+                    "name": "HTTP Methods Enabled Identified",
+                    "vulnerability": {
+                        "cvssScore": 1.8563680275547492,
+                        "severity": "INFORMATIONAL",
+                        "id": "computerkornerMain",
+                        "name": "HTTP Methods Enabled Identified"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "ascenderMain",
+                    "name": "Filtered/Closed Network Ports Found",
+                    "vulnerability": {
+                        "cvssScore": 8.327951430105514,
+                        "severity": "INFORMATIONAL",
+                        "id": "ascenderMain",
+                        "name": "Filtered/Closed Network Ports Found"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "testparkerMain",
+                    "name": "Web Application Accessible via IP Address",
+                    "vulnerability": {
+                        "cvssScore": 1.4798123068862559,
+                        "severity": "INFORMATIONAL",
+                        "id": "testparkerMain",
+                        "name": "Web Application Accessible via IP Address"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "testfireMain",
+                    "name": "Cookies Without Secure Flag Detected",
+                    "vulnerability": {
+                        "cvssScore": 2.504842459578366,
+                        "severity": "LOW",
+                        "id": "testfireMain",
+                        "name": "Cookies Without Secure Flag Detected"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "Server Vulnerable to Lucky13 TLS Exploit",
+                    "vulnerability": {
+                        "cvssScore": 9.868916170522873,
+                        "severity": "INFORMATIONAL",
+                        "id": "acmeMain",
+                        "name": "Server Vulnerable to Lucky13 TLS Exploit"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "Cookies Without HttpOnly Flag Detected",
+                    "vulnerability": {
+                        "cvssScore": 9.838918709037745,
+                        "severity": "MEDIUM",
+                        "id": "vulnwebMain",
+                        "name": "Cookies Without HttpOnly Flag Detected"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "brokencrystalsMain",
+                    "name": "Backup Files Disclosure",
+                    "vulnerability": {
+                        "cvssScore": 2.1864618659180195,
+                        "severity": "HIGH",
+                        "id": "brokencrystalsMain",
+                        "name": "Backup Files Disclosure"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "Log file detected",
+                    "vulnerability": {
+                        "cvssScore": 2.987767088123892,
+                        "severity": "LOW",
+                        "id": "vulnwebMain",
+                        "name": "Log file detected"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "scanmeMain",
+                    "name": "Operating System Fingerprinted",
+                    "vulnerability": {
+                        "cvssScore": 7.133981270827839,
+                        "severity": "INFORMATIONAL",
+                        "id": "scanmeMain",
+                        "name": "Operating System Fingerprinted"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "testfireMain",
+                    "name": "Git repository found",
+                    "vulnerability": {
+                        "cvssScore": 5.836200361674718,
+                        "severity": "INFORMATIONAL",
+                        "id": "testfireMain",
+                        "name": "Git repository found"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "MySQL User enumeration",
+                    "vulnerability": {
+                        "cvssScore": 8.353494700175842,
+                        "severity": "MEDIUM",
+                        "id": "vulnwebMain",
+                        "name": "MySQL User enumeration"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "vulnwebMain",
+                    "name": "Open Network Ports Found",
+                    "vulnerability": {
+                        "cvssScore": 1.6146765567676105,
+                        "severity": "INFORMATIONAL",
+                        "id": "vulnwebMain",
+                        "name": "Open Network Ports Found"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "tuitionrewardsMain",
+                    "name": "Fully Qualified Domain Name (FQDN) Resolved",
+                    "vulnerability": {
+                        "cvssScore": 3.3152299893065296,
+                        "severity": "INFORMATIONAL",
+                        "id": "tuitionrewardsMain",
+                        "name": "Fully Qualified Domain Name (FQDN) Resolved"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                },
+                {
+                    "id": "acmeMain",
+                    "name": "Banner Grabbing Possible",
+                    "vulnerability": {
+                        "cvssScore": 2.680665068133286,
+                        "severity": "INFORMATIONAL",
+                        "id": "acmeMain",
+                        "name": "Banner Grabbing Possible"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "N/A"
+                },
+                {
+                    "id": "brokencrystalsMain",
+                    "name": "Output of phpinfo() Function Accessible Publicly",
+                    "vulnerability": {
+                        "cvssScore": 4.278447074887455,
+                        "severity": "CRITICAL",
+                        "id": "brokencrystalsMain",
+                        "name": "Output of phpinfo() Function Accessible Publicly"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "Rediscovered"
+                },
+                {
+                    "id": "brokencrystalsMain",
+                    "name": "Server Software Version(s) Disclosed",
+                    "vulnerability": {
+                        "cvssScore": 7.125192890305069,
+                        "severity": "LOW",
+                        "id": "brokencrystalsMain",
+                        "name": "Server Software Version(s) Disclosed"
+                    },
+                    "wfName": "ngsam-nw-0-0-1-cggh8ukq",
+                    "isAutoAdded": true,
+                    "isFalsePositive": false,
+                    "isManual": false,
+                    "isPatched": false,
+                    "updatedAt": "2025-02-22 05:38:02.808387Z",
+                    "findingType": "New Discovered"
+                }
+            ]
+        }
+    },
     "domain_vulnerabilities": {
         "getDomain": {
             "id": "0x4",

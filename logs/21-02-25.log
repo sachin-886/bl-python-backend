@@ -320,3 +320,4 @@
 [2025-02-21 22:18:33,528] 19 src.logger - INFO - :) LOGGING START :)
 [2025-02-21 22:18:33,730] 19 src.logger - INFO - :) LOGGING START :)
 [2025-02-21 22:18:33,884] 466 src.logger - INFO - :) Data Ingestion For IPBlockIPAddress Section Started :)
+[2025-02-21 22:18:34,641] 472 src.logger - INFO - :) Data Ingestion Completed :)

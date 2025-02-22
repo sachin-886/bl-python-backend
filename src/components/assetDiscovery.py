@@ -320,7 +320,73 @@ class AddassetDiscoveryData:
             return {"ipaddresses":json_data,"ipaddressesAggregate":len(json_data)}
         except Exception as e:
             raise CustomException(e,sys)
-    
+
+    def subdomain_vulnerabilites_table(self,data):
+        json_data =[]
+        read_data = self.utils.read_json_file(assetDiscovery_file)
+        ids = [obj["id"] for obj in read_data["Domain"]["queryDomain"]]
+        def checkId(value,index,id):
+            if value.upper()=="NULL":
+                return id[index]
+            else:
+                return value
+        def checkautoadded(value):
+            if value.upper()=="NULL":
+                return True
+            else:
+                return value
+        def checkfalsepositive(value):
+            if value.upper()=="NULL":
+                return False
+            else:
+                return value
+        def checkbool(value):
+            if value.upper()=="NULL":
+                return False
+            else:
+                return value
+            
+        def checkdate(value):
+                if value.upper()=="NULL":
+                    return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f") + "Z"
+                else:
+                    return datetime.strptime(value, "%d-%m-%YT%H:%M").strftime("%Y-%m-%dT%H:%M:%S")
+        
+        def checkfindingType(value):
+            if value.upper()=="NULL":
+                return np.random.choice(["N/A","Rediscovered","New Discovered"])
+            else:
+                return value
+        def checkwfName(value):
+            if value.upper()=="NULL":
+                return "ngsam-nw-0-0-1-cggh8ukq"
+            else:
+                return value
+        def checkcvss(value):
+            if value=="NULL" or value=="Null":
+                return np.random.uniform(1,11)
+            else:
+                return value
+        for idx,value in enumerate(data["vulnerability/name"]):
+            index = np.random.choice([i for i in range(len(ids))])
+            json_data.append({
+			"id": checkId(data["Id"][idx],index,ids),
+			"name": value,
+			"vulnerability": {
+				"cvssScore":checkcvss(data["cvssScore/baseScore"][idx]),
+				"severity": str(data["severity/key"][idx]).upper(),
+				"id": checkId(data["Id"][idx],index,ids),
+				"name": data["vulnerability/name"][idx],
+				},
+			"wfName": checkwfName(data["wfName"][idx]),
+			"isAutoAdded": checkautoadded(data["IsAutoAdded"][idx]),
+			"isFalsePositive": checkfalsepositive(data["IsFalsePositive"][idx]),
+			"isManual": checkbool(data["isManual"][idx]),
+			"isPatched": checkbool(data["isPatched"][idx]),
+			"updatedAt": checkdate(data["UpdatedAt"][idx]),
+			"findingType": checkfindingType(data["findingType"][idx]),
+			})
+        return {"id":"0x58ff","findings":json_data}    
 
     def dns_data_table(self,data):
         try:
@@ -471,6 +537,17 @@ class AddassetDiscoveryData:
                 upcoming_data = self.ipblockIpAddress_table(csv_json)
                 logger.info(":) Data Ingestion Completed :)")
                 return upcoming_data
+            
+            elif section_name=="Subdomain_Vulnerabilities":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(subdomain_vulnerabilities_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.subdomain_vulnerabilites_table(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
 
             
             else:
