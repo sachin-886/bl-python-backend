@@ -133,7 +133,7 @@ class AddassetDiscoveryData:
                             },
                         "updatedAt": data["Discovered On"][idx],
                         })
-            return {"queryIPAddress":ip_address_data,"aggregateIPAddress":len(ip_address_data)}
+            return {"queryIPAddress":ip_address_data,"aggregateIPAddress":{"count":len(ip_address_data)}}
          except Exception as e:
              raise CustomException(e,sys)
     
@@ -289,7 +289,7 @@ class AddassetDiscoveryData:
                 "cvssScore": checkcvss(data["cvssScore/baseScore"][idx]),
                 "updatedAt": checkdate(data["Identified On"][idx]),
                 })
-            return {"id":"0x4","vulnerabilities":json_data,"vulnerabilitiesAggregate":len(json_data)}
+            return {"id":"0x4","vulnerabilities":json_data,"vulnerabilitiesAggregate":{"count":len(json_data)}}
         except Exception as e:
             raise CustomException(e,sys)
 
@@ -317,7 +317,7 @@ class AddassetDiscoveryData:
                     "ipblock": checkipblock(data["IP Block"][idx]),
                     "updatedAt": data["Discovered On"][idx],
                 })
-            return {"ipaddresses":json_data,"ipaddressesAggregate":len(json_data)}
+            return {"ipaddresses":json_data,"ipaddressesAggregate":{"count":len(json_data)}}
         except Exception as e:
             raise CustomException(e,sys)
 
