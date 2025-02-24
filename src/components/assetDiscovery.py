@@ -82,7 +82,7 @@ class AddassetDiscoveryData:
 
             for idx,value in enumerate(data["Name"]):
                 subdomain_data.append( {
-                    "id": checkId(data["Name"][idx]),
+                    "id": checkId(value),
                     "name": data["Subdomains"][idx],
                     "isAutoAdded": checkAutoAdded(data["Asset Label"][idx]),
                     "hasWebsite": checkwebsite(data["Status"][idx]),
@@ -180,7 +180,7 @@ class AddassetDiscoveryData:
                         },
                         ],
                     })
-            return {"queryURL":url_data,"aggregateURL":len(url_data)}
+            return {"queryURL":url_data,"aggregateURL":{"count":len(url_data)}}
          except Exception as e:
              raise CustomException(e,sys)
          
@@ -439,6 +439,254 @@ class AddassetDiscoveryData:
 			})
         return{"ipaddresses":json_data,"ipaddressesAggregate":{"count":len(json_data)}}
 
+    def assetGroupVulnerability(self,data):
+        def checkAssetCount(value):
+            if value=="NULL" or value=="Null":
+                return np.random.randint(1,11)
+            else:
+                return value
+        def checkcvss(value):
+            if value=="NULL" or value=="Null":
+                return np.random.uniform(1,11)
+            else:
+                return value
+        def checkseverity(value):
+            if value=="NULL" or value=="Null":
+                return np.random.choice(["HIGH","CRITICAL","INFORMATIONAL","LOW"])
+            else:
+                return value
+        def checkfindingType(value):
+            if value=="NULL" or value=="Null":
+                return "New Discovered"
+            else:
+                return value 
+        json_data = []
+        for idx,value in enumerate(data["vulnerability/name"]):
+            json_data.append({
+			"name": value,
+			"impactedAssetCount": checkAssetCount(data["Assets Impacted"][idx]),
+			"findingType": checkfindingType(data["FindingType"][idx]),
+			"cvssScore": checkcvss(data["cvssScore/baseScore"][idx]),
+			"severity": checkseverity(data["severity/key"][idx]),
+			})
+        return {"total":len(json_data),"vulnerabilities":json_data}
+    
+    def assetGroupSubdomain(self,data):
+        try:
+            subdomain_data = []
+            def checkId(value):
+                if value=="NULL":
+                    return np.random.choice(["875e9ac84698417a856fe956c522e0fc","b11f91e847b246f1a3685833f5475a58"])
+                else:
+                    return value
+            def checkAutoAdded(value):
+                if value == "Manually Added":
+                    return False
+                else:
+                    return True
+            def checkwebsite(value):
+                if value == "Active":
+                    return True
+                else:
+                    return False
+            def checkAgg(value):
+                if value=="NULL":
+                    return 0
+                else:
+                    return value
+
+            for idx,value in enumerate(data["Name"]):
+                subdomain_data.append( {
+                    "id": checkId(data["Id"][idx]),
+                    "name": data["Subdomains"][idx],
+                    "isAutoAdded": checkAutoAdded(data["Asset Label"][idx]),
+                    "hasWebsite": checkwebsite(data["Status"][idx]),
+                    "ipaddressesAggregate": { "count": checkAgg(data["IpAddressAggregate"][idx]) },
+                    "dnsrecordsAggregate": { "count": checkAgg(data["DnsrecordsAggregate"][idx]) },
+                    "findingsAggregate": { "count": checkAgg(data["Vulnerability Count"][idx]) },
+                    "updatedAt": data["Discovered On"][idx],
+                        })
+            return {"id":"0xa17c","name":"Test2","assets":subdomain_data}
+        except Exception as e:
+            raise CustomException(e,sys)
+    
+    def assetGroupIPAddress(self,data):
+        try:
+            ip_address_data = []
+            def checkId(value):
+                if value=="NULL" or value==np.nan:
+                    return np.random.choice(["875e9ac84698417a856fe956c522e0fc","b11f91e847b246f1a3685833f5475a58"])
+                else :
+                    return value
+            def check_ip_block_name(value):
+                if value=="NULL" or value==np.nan:
+                    return ""
+                else:
+                    return value
+            def checkAutoAdded(value):
+                if value=="NULL" or value==np.nan:
+                    return True
+                else:
+                    return value
+            def checkorg(value):
+                if value=="NULL" or value==np.nan:
+                    return "breach"
+                else:
+                    return value
+                
+            for idx,value in enumerate(data["Name"]):
+                ip_address_data.append( {
+                        "id":checkId(data["Id"][idx]),
+                        "name": value,
+                        "isAutoAdded": checkAutoAdded(data["IsAutoAdded"][idx]),
+                        "country":data["Country"][idx],
+                        "org": checkorg(data["Organisation"][idx]),
+                        "ipblock": {
+                            "name": check_ip_block_name(data["IpblockName"][idx]),
+                            },
+                        "updatedAt": data["Discovered On"][idx],
+                        })
+            return {
+		        "id": "0x4e201",
+		        "assetType": "IP",
+		        "name": "Group1_IpAdress",
+		        "ipaddressesAggregate": {
+			        "count": len(ip_address_data),},
+                "ipaddresses":ip_address_data
+                    }
+        except Exception as e:
+             raise CustomException(e,sys)
+
+    def subdomain_ip_asset_activities(self,data,section_name):
+        json_data = []
+        def checkId(value,section_name):
+            if value=="NULL":
+                if section_name =="assetGroup_activities":
+                    return np.random.choice(["875e9ac84698417a856fe956c522e0fc","b11f91e847b246f1a3685833f5475a58"])
+                else:
+                    file_data = self.utils.read_json_file(assetDiscovery_file)
+                    ids = [id['id'] for id in file_data["Subdomains"]["queryAsset"]]
+                    return np.random.choice(ids)
+            else:
+                return value
+        def checkrunbook_id(value):
+            if value=="NULL":
+                return "659d2d1d629b73fbe982a3b3"
+            else:
+                return value
+        def checkrunbook_title(value):
+            if value == "NULL":
+                return "Domain Discovery"
+            else:
+                return value
+        def runbook_name(value):
+            if value=="NULL":
+                return ""
+            else:
+                return value
+        
+        def runbook_version(value):
+            if value=="NULL":
+                return "1.0.0"
+            else:
+                return value
+            
+        def tenant(value):
+            if value=="NULL":
+                return "breachlock"
+            else:
+                return value
+            
+        def asset_id(value):
+            if value=="NULL":
+                return "0x2c98"
+            else:
+                return value
+            
+        def message(value):
+            if value=="NULL":
+                return "Databreach is disabled."
+            else:
+                return value
+        def duration(value):
+            if value=="NULL":
+                return  0.0
+            else:
+                return value
+            
+        def depends(value):
+            if value=="NULL":
+                return []
+            else:
+                return value
+        
+        def completion(value):
+            if value=="NULL":
+                return 0
+            else:
+                return value
+            
+        def workflow_name(value):
+            if value=="NULL":
+                return "system-default-1-0-0-5k3xy3o4"
+            else:
+                return value
+            
+        def trigger_now(value):
+            if value=="NULL":
+                return True
+            else:
+                return value
+            
+        def created_at(value):
+            if value=="NULL":
+                return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f") + "Z"
+            else:
+                return datetime.strptime(value, "%d-%m-%YT%H:%M").strftime("%Y-%m-%dT%H:%M:%S")
+            
+        def created_by (value):
+            if value=="NULL":
+                return np.random.choice(["saurav","harshit","varun","shivendra"])
+            else:
+                return value
+                
+        def checkgql_trigger(value):
+            if value=="NULL":
+                return "0x866ba"
+            else:
+                return value
+        for idx,value in enumerate(data["Scan Name"]):
+            json_data.append({
+				"id": checkId(data["Id"][idx],section_name),
+				"task_name": value,
+				"runbook_id": checkrunbook_id(data["runbook_id"][idx]),
+				"runbook_title": checkrunbook_title(data["Type"][idx]),
+				"runbook_name": runbook_name(data["runbook_name"][idx]),
+				"runbook_version": runbook_version(data["runbook_version"][idx]),
+				"tenant": tenant(data["tenant"][idx]),
+				"asset": asset_id(data["asset_id"][idx]),
+				"asset_name": data["Asset"][idx],
+				"domain": asset_id(data["domain_name"][idx]),
+				"trigger_source": data["trigger_source"][idx],
+				"gql_trigger_ref": checkgql_trigger(data["gql_trigger_ref"][idx]),
+				"status": {
+					"name": data["Status"][idx],
+					"message": message(data["message"][idx]),
+					"timestamp": created_at(data["Timestamp"][idx]),
+					"duration": duration(data["duration"][idx]),
+					"depends": depends(data["depends"][idx]),
+					"completion": completion(data["completion"][idx]),
+					},
+					"workflow_name":workflow_name(data["workflow_name"][idx]),
+					"trigger_now": trigger_now(data["trigger_now"][idx]),
+					"schedule": data["schedule"][idx],
+					"created_at": created_at(data["Created At"][idx]),
+					"updated_at": created_at(data["Updated At"][idx]),
+					"created_by": created_by(data["Created By"][idx]),
+					"updated_by": created_by(data["Updated By"][idx]),
+				})
+        return {"success":True,"data":{"total":len(json_data),"runbooks_executions":json_data}}
+
     def initiate_data_ingestion(self,data,sheet_name,section_name):
          try:
             if section_name==domain_section:
@@ -548,8 +796,54 @@ class AddassetDiscoveryData:
                 logger.info(":) Data Ingestion Completed :)")
                 return upcoming_data
             
-
+            elif section_name=="assetGroup_vulnerabilities":
+                logger.info(f":) Data Ingestion For {section_name} Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(asset_group_vulnerability_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.assetGroupVulnerability(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
             
+            elif section_name=="assetGroup_Subdomain":
+                logger.info(":) Data Ingestion For Subdomain Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(subdomain_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.assetGroupSubdomain(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="assetGroup_IPAddress":
+                logger.info(":) Data Ingestion For IpAddress Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(ip_address_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.assetGroupIPAddress(csv_json)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            elif section_name=="subdomain_ip_activities":
+                logger.info(":) Data Ingestion For IpAddress Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(activities_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.subdomain_ip_asset_activities(csv_json,section_name)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
+            
+            elif section_name=="assetGroup_activities":
+                logger.info(":) Data Ingestion For IpAddress Section Started :)")
+                df = self.utils.read_upload_file(data,sheet_name)
+                fields = self.utils.required_fields(activities_schema)
+                df = self.utils.create_missing_field(df,fields)
+                csv_json = self.utils.dataframe_json(df)
+                upcoming_data = self.subdomain_ip_asset_activities(csv_json,section_name)
+                logger.info(":) Data Ingestion Completed :)")
+                return upcoming_data
             else:
                 logger.info(":) Data Ingestion For AssetGroups Section Started :)")
                 df = self.utils.read_upload_file(data,sheet_name)
@@ -561,5 +855,6 @@ class AddassetDiscoveryData:
                 return upcoming_data
          except Exception as e:
              raise CustomException(e,sys)
+         
               
     

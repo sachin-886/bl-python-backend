@@ -50,6 +50,17 @@ def update_vulnerability_json(vulnerability_section:str=Form(...),data:UploadFil
     else:
         upcoming_data = vul_data_ingestor.initiate_data_ingestion(data,sheet_name,vulnerability_section)
     logger.info(":) OVERWRITING JSON FILE :)")
+    if vulnerability_section=="POC":
+        assetDiscoveryData = utils.read_json_file(assetDiscovery_file)
+        if vulnerability_section in list(assetDiscoveryData.keys()):
+            variable_name = list(assetDiscoveryData[vulnerability_section].keys())[0]
+            assetDiscoveryData[vulnerability_section][variable_name] = upcoming_data
+            utils.write_json_file(assetDiscovery_file,assetDiscoveryData)
+        else:
+            return {
+            "sucess":False,
+            "error":"Invalid Section Name "
+        }
     vulnerability_data = utils.read_json_file(vulnerabilities_file)
     if vulnerability_section in list(vulnerability_data.keys()):
         variable_name = list(vulnerability_data[vulnerability_section].keys())[0]

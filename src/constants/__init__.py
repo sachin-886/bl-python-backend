@@ -213,6 +213,45 @@ subdomain_vulnerabilities_schema = {
 			"findingType": "findingType",
 			}
 
+asset_group_vulnerability_schema = {
+			"name": "vulnerability/name",
+			"impactedAssetCount": "Assets Impacted",
+			"findingType": "FindingType",
+			"cvssScore": "cvssScore/baseScore",
+			"severity": "severity/key",
+			}
+
+
+activities_schema = {
+				"id": "Id",
+				"task_name": "Scan Name",
+				"runbook_id": "runbook_id",
+				"runbook_title": "Type",
+				"runbook_name": "runbook_name",
+				"runbook_version": "runbook_version",
+				"tenant": "tenant",
+				"asset": "asset_id",
+				"asset_name": "Asset",
+				"domain": "domain_name",
+				"trigger_source": "trigger_source",
+				"gql_trigger_ref": "gql_trigger_ref",
+				"status": {
+					"name": "Status",
+					"message": "message",
+					"timestamp": "Timestamp",
+					"duration": "duration",
+					"depends": "depends",
+					"completion": "completion",
+					},
+					"workflow_name": "workflow_name",
+					"trigger_now": "trigger_now",
+					"schedule": "schedule",
+					"created_at": "Created At",
+					"updated_at": "Updated At",
+					"created_by": "Created By",
+					"updated_by": "Updated By",
+				}
+
 ipBlockIpaddress_schema = {
 			"id": "Id",
 			"name": "Name",

@@ -248,13 +248,20 @@ class AddVulnerabilityData:
                     return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f") + "Z"
                 else:
                     return datetime.strptime(value, "%d-%m-%YT%H:%M").strftime("%Y-%m-%dT%H:%M:%S")
+        def checkId(value):
+                ids = ["brokencrystalsMain","ascenderMain","vulnwebMain","scanmeMain","testparkerMain","computerkornerMain","testfireMain","tuitionrewardsMain","acmeMain"]
+                if value=="NULL" or value==np.nan:
+                    id = np.random.choice(ids) 
+                    return id
+                else :
+                    return value
         json_data = []
         for idx,value in enumerate(data["vulnerability/name"]):
             json_data.append({
-			"id": "0x44e1a1"+str(idx),
+			"id": checkId(data["Id"][idx]),
 			"urls": data["vulnerability/references/url"][idx],
 			"description": data["vulnerability/description"][idx],
-            "poc":data["pocs/url"][idx],
+            "poc":data["pocs/url"][idx][0],
 			"ports": checkports(data["ports"][idx]),
 			"endpoints": checkendpoint(data["endpoints"][idx]),
 			"updatedAt":checkdate(data["UpdatedAt"][idx])
